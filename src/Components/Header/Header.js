@@ -75,64 +75,31 @@ const Header = ({ onNavigate, TogglerNew, toggler }) => {
         <>
             <div className='display_pc'>
                 <div className='col-md-12 '>
-                    <div className='col-md-12 header_background_orange'>
+                    <div className='col-md-12  padding_left_right_header '>
                         <div className='row'>
-                            <div className='col-md-6 m-auto padding_left_right_header2'>
-                                <div className='d-flex'>
-                                    <span><p className='m-0 p-0 color_of_phone'>(+966) 599189997</p></span>
-                                    <span><p className='m-0 p-0 color_of_phone ps-3'>(+966) 581873727</p></span>
-                                    <span><p className='m-0 p-0 color_of_phone ps-3'>(+966) 599445710</p></span>
-                                </div>
-                            </div>
-                            <div className='col-md-6 pb-1 text-end padding_left_right_header2 color_of_icons'>
-                                <span className='pe-2'><IoLogoLinkedin /></span>
-                                <span className='pe-2'><FaInstagram /></span>
-                                <span><FaFacebook /></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-md-12 py-2 padding_left_right_header '>
-                        <div className='row'>
-                            <div className='col-md-2'>
+                            <div className='col-md-2 m-auto'>
                                 <img className='img-fluid logo_font_txt' src='/imagess/logo.jpg' />
                             </div>
-                            <div className='col-md-8'>
-                                <div className={`col-md-12 py-3 text-center `} >
-                                    <span ><Link className='text_dec_stop_Text' to="/">Home</Link></span>
-                                    <span className='ps-5'><Link className='text_dec_stop_Text' to="/">Products</Link></span>
-                                    <span className='ps-5'><Link className='text_dec_stop_Text' to="/">About Us</Link></span>
+                            <div className='col-md-10  text-end'>
+                                <div className={`d-flex justify-content-end py-4 `} >
+                                    <span className='pt-1' ><Link className='text_dec_stop_Text borderbottom_activee' to="/">Home</Link></span>
+                                    <span className='ps-5 pt-1'><Link className='text_dec_stop_Text ' to="/">Products</Link></span>
+                                    <span className='ps-5 pt-1'><Link className='text_dec_stop_Text ' to="/">About Us</Link></span>
 
-                                    <span className='ps-5' ><Link className='text_dec_stop_Text' to="/">Resources</Link></span>
+                                    <span className='ps-5 pt-1' ><Link className='text_dec_stop_Text' to="/">Resources</Link></span>
 
 
                                     {/* <span className='ps-5' onClick={() => onNavigate('portfolio')}>Portofolio</span> */}
-                                    <span className='ps-5'><Link className='text_dec_stop_Text' to="/">Contact US</Link></span>
+                                    <span className='ps-5 pt-1'><Link className='text_dec_stop_Text' to="/">Contact US</Link></span>
+                                    <span className='ps-5'><button className='btn btn-warning orange_button_color'>Request A Quote</button></span>
                                 </div>
-                            </div>
-                            <div className='col-md-2 ps-md-5 m-auto'>
-                                <div className='col-md-12 border_for_green' onClick={triggernewflag}>
-                                    <div className='d-flex justify-content-center'>
-                                        <img className='img-fluid flag_w_h mt-2' src='/images/usa-flag.png' /><p className='m-0 py-1'> English</p>
-                                    </div>
-
-                                </div>
-                                {ShowFlag &&
-                                    <div className='width_foe_dropdown mt-2 py-1' onClick={triggernewflag}>
-                                        <div className='d-flex justify-content-center'>
-                                            <img className='img-fluid flag_w_h mt-2' src='/images/saudia-flag.png' /><p className='m-0 py-1'> Arabic</p>
-                                        </div>
-                                        <div className='d-flex justify-content-center'>
-                                            <img className='img-fluid flag_w_h mt-2' src='/images/french-flag.jpg' /><p className='m-0 py-1'> French</p>
-                                        </div>
-                                    </div>
-                                }
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div className='display_mobile'>
+            {/* <div className='display_mobile'>
                 <div className='col-md-12 header_background_orange'></div>
                 <div className='col-md-12 py-2 background_blue px-2'>
                     <div className='row'>
@@ -152,24 +119,12 @@ const Header = ({ onNavigate, TogglerNew, toggler }) => {
                 </div>
                 {toggler === true ?
                     <div className='col-md-12 background_blue_position'>
-                        {/* <div className='col-md-12 background_blue px-2'>
-                            <div className='row'>
-                                <div className='col-6 py-4'>
-                                    <img className='img-fluid width_logo' src='/images/logo.png' />
-                                </div>
-                                <div className='col-6 m-auto text-end px-4' onClick={TogglerNew}>
-                                    <span className='buger_menu'><RxCross2 /></span>
-                                </div>
-                            </div>
-                        </div> */}
                         <div className='col-md-12 px-4'>
                             <h5 className='py-3' onClick={TogglerNew}><Link className='text_dec_stop' to="/">Home</Link></h5>
                             <h5 className='py-3' onClick={TogglerNew}><Link className='text_dec_stop' to="/">About Us</Link></h5>
                             <h5 className='py-3' onClick={TogglerNew}><Link className='text_dec_stop' to="/">Products</Link></h5>
                             <h5 className='py-3' onClick={TogglerNew}><Link className='text_dec_stop' to="/">Resources</Link></h5>
                             <h5 className='py-3' ><Link className='text_dec_stop' to="/">Services</Link></h5>
-
-                            {/* <h5 className='py-3' onClick={() => { onNavigate('portfolio') }}>Portfolio</h5> */}
                             <h5 className='py-3' ><Link className='text_dec_stop' to="/">Contact Us</Link></h5>
                         </div>
                     </div>
@@ -220,7 +175,7 @@ const Header = ({ onNavigate, TogglerNew, toggler }) => {
                         </div>
                     </Modal.Body>
                 </Modal>
-            </div>
+            </div> */}
         </>
     )
 }
