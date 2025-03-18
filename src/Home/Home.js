@@ -162,7 +162,7 @@ function Home() {
 
 
     return (
-        <div className='col-md-12 overflow_stop display_pc'>
+        <div className='col-md-12 overflow_stop '>
             <Header onNavigate={handleScrollToSection} TogglerNew={TogglerNew} toggler={toggler} />
             {showButton && (
                 <div className='col-md-12 button_srcondary_position text-end px-3'>
@@ -216,15 +216,15 @@ function Home() {
                 </div> */}
 
                 <div className='col-md-12 background_for_image_h universal_padding_allp' >
-                    <div className='row pt-5 '>
+                    <div className='row pt-md-5 '>
                         <div className='col-md-6 '>
                             <div className='col-md-12 text_for_head1' >
-                                <p className='m-0 p-0 industry_text_pp'>Industry<br /> Solutions!</p>
+                                <p className='m-0 p-0 industry_text_pp'>Welcome to <br />Filter City Trading Co.</p>
                                 <p className='m-0 p-0 color_of_text_sub1 pt-3'>Filter City is a leading supplier specializing in all types of heavy machinery filters, providing high-quality solutions for industries such as construction, mining, agriculture, and transportation. With an extensive range of filters for machinery including excavators, bulldozers, cranes, and more, we ensure optimal performance and durability for your equipment.</p>
                                 <div className='row pt-5'>
                                     <div className='col-md-6 '>
                                         <span className='btn btn-light btn-lg button_cutome1 px-md-5 mt-3'>
-                                            <b> Our Services</b>
+                                            <b>Shop Now</b>
                                         </span>
                                     </div>
                                     <div className='col-md-6 '>
@@ -234,14 +234,14 @@ function Home() {
                             </div>
                         </div>
                         <div className='col-md-6 m-auto text-center'>
-                            <div className='row'>
+                            <div className='row pb-md-0 pb-5'>
                                 <div className='col-md-6'></div>
                                 <div className='col-md-6 pt-5'>
                                     <div className='col-md-12 bg-white py-5 mt-5 px-5'>
                                         <div className='col-md-12'>
                                             <PiFactoryLight className='factory_icon' />
                                             <p className='m-0 p-0 mission_text'>Our Mission</p>
-                                            <p className='m-0 p-0 pt-2 utlizing_font'>Utilising latest processing solutions, and decades of work experience.</p>
+                                            <p className='m-0 p-0 pt-2 utlizing_font'>Where Power Meets Purity</p>
                                             <p className='m-0 p-0 pt-2 explore_text'>Explore <span className='ms-1'><FaArrowRightLong /></span></p>
                                         </div>
                                     </div>
@@ -310,7 +310,7 @@ function Home() {
                     A Leading Industrial & Manufacturing<br /> Company, Serving Since 1997.
                 </p>
             </div>
-            <div className='col-md-12 padding_top_bottom_left_right_only pt-5 mt-4 pb-5'>
+            <div className='col-md-12 padding_top_bottom_left_right_only pt-md-5 mt-md-4 pb-5'>
                 <div className='row'>
                     <div className='col-md-4'>
                         <div className='col-md-12 mt-3'>
@@ -325,12 +325,13 @@ function Home() {
                             </p>
                         </div>
                     </div>
-                    <div className='col-md-5 px-5'>
+                    <div className='col-md-5 display_pc px-5'>
                         <div className='col-md-12 position_relative_bb'>
                             <div className='col-md-12 position_box1 '>
                                 <div className='row'>
                                     <div className='col-md-1'></div>
-                                    <div className='col-md-11 box1_background'></div>
+                                    <div className='col-md-11 box1_background'>
+                                    </div>
                                 </div>
                             </div>
                             <div className='col-md-12 position_box2 '>
@@ -417,7 +418,7 @@ function Home() {
                 <div className='col-md-12 mt-5 pt-4  mb-5 '>
                     <div className='col-md-12 bg-white '>
                         <div className='row'>
-                            <div className='col-md-3 border_right_11 py-4 '>
+                            <div className='col-md-3 border_right_12 py-4 '>
                                 <div className='col-md-12 ps-4 py-2'>
                                     <PiFactoryLight className='font_s3_pp' />
                                     <p className='m-0 p-0 env_text'>Envirnomental Sensitivity</p>
@@ -427,7 +428,7 @@ function Home() {
                                     <p className='m-0 pt-4 arroe_colorcc'><span className='readmore_text'>Read More</span> <FaArrowRight /></p>
                                 </div>
                             </div>
-                            <div className='col-md-3 border_right_11 py-4 '>
+                            <div className='col-md-3 border_right_12 py-4 '>
                                 <div className='col-md-12 ps-4 py-2'>
                                     <PiFactoryLight className='font_s3_pp' />
                                     <p className='m-0 p-0 env_text'>Envirnomental Sensitivity</p>
@@ -437,7 +438,7 @@ function Home() {
                                     <p className='m-0 pt-4 arroe_colorcc'><span className='readmore_text'>Read More</span> <FaArrowRight /></p>
                                 </div>
                             </div>
-                            <div className='col-md-3 border_right_11 py-4 '>
+                            <div className='col-md-3 border_right_12 py-4 '>
                                 <div className='col-md-12 ps-4 py-2'>
                                     <PiFactoryLight className='font_s3_pp' />
                                     <p className='m-0 p-0 env_text'>Envirnomental Sensitivity</p>
@@ -467,7 +468,7 @@ function Home() {
             <div className='col-md-12 '>
                 <div className='row'>
                     <div className='col-md-6 background_orange_11 padding_top_bottom_left_1 py-5'>
-                        <div className='col-md-12 pe-5 py-5'>
+                        <div className='col-md-12 pe-md-5 py-5'>
                             <p className='m-0 p-0 little_orange_text text-light'>Manufacture A Varuety Of Hight Quality Products</p>
                             <p className='m-0 p-0 pt-2 font_big_heading_sub text-light'>
                                 A Leading Industrial & Manufacturing Company, Serving Since 1997.
@@ -540,7 +541,7 @@ function Home() {
                         </div>
                         <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
-                                <div className='col-md-12 img_gray'></div>
+                                <div className='col-md-12 img_gray1'></div>
                                 <div className='px-3 py-3'>
                                     <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
                                     <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
@@ -553,7 +554,7 @@ function Home() {
                         </div>
                         <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
-                                <div className='col-md-12 img_gray'></div>
+                                <div className='col-md-12 img_gray2'></div>
                                 <div className='px-3 py-3'>
                                     <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
                                     <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
@@ -592,10 +593,10 @@ function Home() {
                         <div className='col-md-6 mt-3'>
                             <div className='col-md-12 background_hover_black'>
                                 <div className='row mt-3'>
-                                    <div className='col-md-1'>
+                                    <div className='col-md-1 col-1'>
                                         <FaCheck className='icon_orangee_dot text-light' />
                                     </div>
-                                    <div className='col-md-11'>
+                                    <div className='col-md-11 col-11'>
                                         <p className='m-0 p-0 font_listing_qq text-light'>Quality Control System</p>
                                         <p className='m-0 p-0 env_text_sub pt-2'>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -607,10 +608,10 @@ function Home() {
                         <div className='col-md-6 mt-3'>
                             <div className='col-md-12 background_hover_black'>
                                 <div className='row mt-3'>
-                                    <div className='col-md-1'>
+                                    <div className='col-md-1 col-1'>
                                         <FaCheck className='icon_orangee_dot text-light' />
                                     </div>
-                                    <div className='col-md-11'>
+                                    <div className='col-md-11 col-11'>
                                         <p className='m-0 p-0 font_listing_qq text-light'>Highly Professional Staff</p>
                                         <p className='m-0 p-0 env_text_sub pt-2'>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -622,10 +623,10 @@ function Home() {
                         <div className='col-md-6 mt-3'>
                             <div className='col-md-12 background_hover_black'>
                                 <div className='row mt-3'>
-                                    <div className='col-md-1'>
+                                    <div className='col-md-1 col-1'>
                                         <FaCheck className='icon_orangee_dot text-light' />
                                     </div>
-                                    <div className='col-md-11'>
+                                    <div className='col-md-11 col-11'>
                                         <p className='m-0 p-0 font_listing_qq text-light'>100% Satisfaction Guarantee</p>
                                         <p className='m-0 p-0 env_text_sub pt-2'>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -637,10 +638,10 @@ function Home() {
                         <div className='col-md-6 mt-3'>
                             <div className='col-md-12 background_hover_black'>
                                 <div className='row mt-3'>
-                                    <div className='col-md-1'>
+                                    <div className='col-md-1 col-1'>
                                         <FaCheck className='icon_orangee_dot text-light' />
                                     </div>
-                                    <div className='col-md-11'>
+                                    <div className='col-md-11 col-11'>
                                         <p className='m-0 p-0 font_listing_qq text-light'>Accurate Testing Processes</p>
                                         <p className='m-0 p-0 env_text_sub pt-2'>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -666,14 +667,14 @@ function Home() {
                                 <p className='m-0 p-0 env_text_sub text-light pt-2 mt-2'>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                                 </p>
-                                <div className='col-md-12 position_bottom_1'>
-                                    <span className='btn btn-light btn-lg button_cutome_black px-md-5 mt-3 w-100'>
+                                <div className='col-md-12 position_bottom_1 '>
+                                    <span className='btn btn-light btn-lg  button_cutome_black px-md-5 mt-3 w-100'>
                                         <b>Download 2025 Brochure</b>
                                     </span>
                                 </div>
                             </div>
                         </div>
-                        <div className='col-md-8 py-5 px-5 bg-white'>
+                        <div className='col-md-8 py-5 px-md-5 bg-white'>
                             <div className='col-md-12'>
                                 <p className='m-0 p-0 font_big_heading_sub_new '>
                                     Request A Quote
@@ -681,24 +682,24 @@ function Home() {
                                 <p className='m-0 p-0 env_text_sub pt-1 mt-2'>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                                 </p>
-                                <div className='col-md-12 mt-4 pt-3'>
+                                <div className='col-md-12 mt-md-4 mt-4 pt-md-3 pt-0'>
                                     <div className='row'>
                                         <div className='col-md-6'>
                                             <input className='form-control form-control-lg fomr_input_dd' placeholder='Name' />
                                         </div>
-                                        <div className='col-md-6'>
+                                        <div className='col-md-6 mt-md-0 mt-4'>
                                             <input className='form-control form-control-lg fomr_input_dd' placeholder='Email' />
                                         </div>
                                     </div>
-                                    <div className='row mt-4 pt-3'>
+                                    <div className='row mt-md-4 mt-4 pt-md-3 pt-0'>
                                         <div className='col-md-6'>
                                             <input className='form-control form-control-lg fomr_input_dd' placeholder='Phone' />
                                         </div>
-                                        <div className='col-md-6'>
+                                        <div className='col-md-6 mt-md-4 mt-4'>
                                             <input className='form-control form-control-lg fomr_input_dd' placeholder='Industry' />
                                         </div>
                                     </div>
-                                    <div className='row mt-4 pt-3'>
+                                    <div className='row mt-md-4 mt-3 pt-3'>
                                         <div className='col-md-12'>
                                             <textarea className='form-control form-control-lg fomr_input_dd' rows={5} placeholder='Message' />
                                         </div>
@@ -723,7 +724,7 @@ function Home() {
 
 
             {/* Section 10 --------------------------------------- */}
-            <div className='col-md-12 padding_top_bottom_left_right_only pb-5'>
+            <div className='col-md-12 padding_top_bottom_left_right_only pb-md-5 pb-4 mt-md-0 mt-5'>
                 <div className='col-md-12'>
                     <div className='row'>
                         <div className='col-md-6'>
@@ -754,7 +755,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-md-6'>
+                        <div className='col-md-6 mt-md-0 mt-5'>
                             <div className='col-md-12'>
                                 <div className='d-flex'>
                                     <div>
@@ -789,7 +790,7 @@ function Home() {
                 <hr />
             </div>
             <div className='col-md-12 padding_top_bottom_left_right_only pb-5'>
-                <div className='d-flex justify-content-between'>
+                <div className='flex_universal'>
                     <div>
                         <img className='img-fluid image_sizing_logos' src='/images/capital2.png' />
                     </div>
@@ -837,7 +838,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4 background_g'></div>
+                    <div className='col-md-4 background_g display_pc'></div>
                 </div>
             </div>
 
@@ -869,7 +870,7 @@ function Home() {
                         </div>
                         <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
-                                <div className='col-md-12 img_gray'></div>
+                                <div className='col-md-12 img_gray1'></div>
                                 <div className='px-3 py-3'>
                                     <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
                                     <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
@@ -882,7 +883,7 @@ function Home() {
                         </div>
                         <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
-                                <div className='col-md-12 img_gray'></div>
+                                <div className='col-md-12 img_gray2'></div>
                                 <div className='px-3 py-3'>
                                     <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
                                     <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>

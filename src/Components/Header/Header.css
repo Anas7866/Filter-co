@@ -5,6 +5,7 @@
 
 .background_blue {
     background-color: black;
+    border-bottom: 2px solid #FF7505;
 
 }
 
@@ -390,13 +391,51 @@
 
 .img_gray {
     background-image: linear-gradient(#3C3C3C, #656565, #656565);
+    background-image: url(/public/images/filter4.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
 
-    height: 60vh;
+.img_gray1 {
+    background-image: linear-gradient(#3C3C3C, #656565, #656565);
+    background-image: url(/public/images/filter5.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.img_gray2 {
+    background-image: linear-gradient(#3C3C3C, #656565, #656565);
+    background-image: url(/public/images/filter6.webp);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    height: 50vh;
 }
 
 .font_floride {
     font-size: 16px;
     font-weight: 600;
+}
+
+
+
+.border_right_simple:hover {
+    transition: 0.5s ease-in-out;
+}
+
+.border_right_simple:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    background-color: #FF7505;
+    color: white !important;
+    transition: 0.5s ease-in-out;
 }
 
 .border_right_11 {
@@ -416,24 +455,35 @@
     transform: scale(1.1);
 }
 
-.border_right_simple:hover {
+.border_right_11:hover .env_text,
+.border_right_11:hover .env_text_sub,
+.border_right_11:hover .arroe_colorcc {
+    color: white;
+    /* Change the color of .env_text and .env_sub_text to red */
+}
+
+
+.border_right_12 {
+    border-right: 2px solid #EBEBEB;
     transition: 0.5s ease-in-out;
 }
 
-.border_right_simple:hover {
+.border_right_12:hover {
+    border-right: 0px solid #EBEBEB;
+    background-color: #FF7505;
+    color: white !important;
+    transition: 0.5s ease-in-out;
     -ms-transform: scale(1.1);
     /* IE 9 */
     -webkit-transform: scale(1.1);
     /* Safari 3-8 */
     transform: scale(1.1);
-    background-color: #FF7505;
-    color: white !important;
-    transition: 0.5s ease-in-out;
 }
 
-.border_right_11:hover .env_text,
-.border_right_11:hover .env_text_sub,
-.border_right_11:hover .arroe_colorcc {
+.border_right_12:hover .env_text,
+.border_right_12:hover .env_text_sub,
+.border_right_12:hover .arroe_colorcc,
+.border_right_12:hover .font_s3_pp {
     color: white;
     /* Change the color of .env_text and .env_sub_text to red */
 }
@@ -506,6 +556,10 @@
 .box1_background {
     background-color: #C0C0C0;
     height: 45vh;
+    background-image: url(/public/images/carr.png);
+    background-size: cover;
+    background-position: 90% 100%;
+    background-repeat: no-repeat;
 }
 
 .box2_background {
@@ -541,6 +595,11 @@
 
 .background_s3_orange {
     background-image: linear-gradient(#515151, #202020);
+    background-image: url(/public/images/big2.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .background_hover_black {
@@ -651,11 +710,16 @@
 
 .background_lg {
     background-color: #B8B8B8;
+    background-image: url(/public/images/filter7.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .background_g {
     background-color: #5D5D5D;
     height: 85vh;
+
 }
 
 .padding_bottom_black_section {
@@ -678,6 +742,10 @@
 
 .background_gray_22 {
     background-color: #B8B8B8;
+    background-image: url(/public/images/filter2.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .padding_start_for_special_heading {
@@ -911,7 +979,7 @@ i {
 }
 
 .industry_text_pp {
-    font-size: 90px;
+    font-size: 60px;
     line-height: 90px;
     font-weight: 500;
 }
@@ -938,11 +1006,12 @@ i {
 }
 
 .background_for_image_h {
-    /* background-image: url("/public/imagess/filter-edited.png");
+    background-image: url(/public/images/big2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 100%; */
-    background-image: linear-gradient(#3C3C3C, #656565, #656565);
+    background-position: 100% 100%;
+    /* background-image: linear-gradient(#3C3C3C, #656565, #656565); */
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -987,6 +1056,12 @@ i {
     padding-left: 5px !important;
 }
 
+.flex_universal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 
 /* ////////////////////////////////////////New code  */
 
@@ -998,6 +1073,104 @@ i {
 }
 
 @media only screen and (max-width: 600px) {
+    .background_gray_22 {
+        background-color: #B8B8B8;
+        background-image: url(/public/images/filter2.jpg);
+        background-size: cover;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+
+    .padding_top_bottom_left_1 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .flex_universal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .margin_right_neggg {
+        position: relative;
+        z-index: 0;
+        margin-top: auto;
+        right: auto !important;
+        width: auto;
+    }
+
+
+    .img_gray {
+        background-image: linear-gradient(#3C3C3C, #656565, #656565);
+        background-image: url(/public/images/filter4.jpg);
+        background-size: cover;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        height: 30vh;
+    }
+
+    .img_gray1 {
+        background-image: linear-gradient(#3C3C3C, #656565, #656565);
+        background-image: url(/public/images/filter5.jpg);
+        background-size: cover;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        height: 30vh;
+    }
+
+    .img_gray2 {
+        background-image: linear-gradient(#3C3C3C, #656565, #656565);
+        background-image: url(/public/images/filter6.webp);
+        background-size: cover;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        height: 30vh;
+    }
+
+
+    .position_relative_bb_new {
+        position: relative;
+        height: auto;
+    }
+
+    .position_bottom_1 {
+        position: relative;
+        /* bottom: -91px; */
+        margin-top: 0px;
+        padding-bottom: 40px;
+    }
+
+
+
+    .padding_top_bottom_left_right_only {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .border_right_11 {
+        border-top: 2px solid #EBEBEB;
+        transition: 0.5s ease-in-out;
+        border-right: 0px;
+    }
+
+    .border_right_simple {
+        border-top: 2px solid #EBEBEB;
+        transition: 0.5s ease-in-out;
+    }
+
+    .font_big_heading {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .font_big_heading_sub {
+        font-size: 26px;
+        font-weight: 600;
+    }
+
     .button_cutome1 {
         background-color: #FF7505;
         border-radius: 8px !important;
@@ -1007,13 +1180,19 @@ i {
     }
 
     .background_for_image_h {
-        background-image: url("/public/imagess/filter-edited.png");
+        background-image: url(/public/images/big2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 100% 100%;
-        height: 80vh;
+        height: auto;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .industry_text_pp {
+        font-size: 60px;
+        line-height: 80px;
+        font-weight: 500;
     }
 
     .padding_top_card {

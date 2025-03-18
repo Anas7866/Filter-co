@@ -99,9 +99,9 @@ const Header = ({ onNavigate, TogglerNew, toggler }) => {
 
                 </div>
             </div>
-            {/* <div className='display_mobile'>
+            <div className='display_mobile'>
                 <div className='col-md-12 header_background_orange'></div>
-                <div className='col-md-12 py-2 background_blue px-2'>
+                <div className='col-md-12 py-2 background_blue ps-3 pe-3'>
                     <div className='row'>
                         <div className='col-6 py-2'>
                             <Link className='text_dec_stop' to="/">
@@ -175,7 +175,7 @@ const Header = ({ onNavigate, TogglerNew, toggler }) => {
                         </div>
                     </Modal.Body>
                 </Modal>
-            </div> */}
+            </div>
         </>
     )
 }

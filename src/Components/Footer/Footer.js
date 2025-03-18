@@ -12,14 +12,12 @@ function Footer() {
                         <div className='col-md-3 alignment1'>
                             <div className='col-md-12  '>
                                 <div className='px-3 pb-3'>
-                                    <div className='d-flex'>
-                                        <div>
-                                            <img className='img-fluid logo_font_txt' src='/imagess/logo.jpg' />
-                                        </div>
-                                        {/* <div>
+                                    <div>
+                                        <img className='img-fluid logo_font_txt' src='/imagess/logo.jpg' />
+                                    </div>
+                                    {/* <div>
                                         <p className='m-0 p-0 filtertext'>FILTER CITY TRADING CO.</p>
                                     </div> */}
-                                    </div>
                                 </div>
                                 <div className='col-md-12 px-3 dark_text'>
 
@@ -83,10 +81,10 @@ function Footer() {
             </div >
             <div className='col-md-12 background_ff padding_top_bottom_left_right_only text_footer_gray py-4'>
                 <div className='row'>
-                    <div className='col-md-6 text-start'>
-                        <p className='m-0 p-0 py-1'>&copy;2025 FILTER CITY TRADING CO.</p>
+                    <div className='col-md-6 col-8 text-start'>
+                        <p className='m-0 p-0 py-1'>&copy;2025 FILTER CITY TRADING</p>
                     </div>
-                    <div className='col-md-6 text-end m-auto'>
+                    <div className='col-md-6 col-4 text-end m-auto'>
                         <span><FaFacebookF /></span>
                         <span className='ps-3'><FaInstagram /></span>
                         <span className='ps-3'><FaXTwitter /></span>
