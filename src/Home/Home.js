@@ -22,6 +22,7 @@ import { HiBuildingOffice2 } from 'react-icons/hi2';
 import { FaAngleDoubleUp, FaArrowRight, FaCheck } from 'react-icons/fa';
 import { IoMdCall } from 'react-icons/io';
 import { GoDotFill } from 'react-icons/go';
+import { TiPin } from 'react-icons/ti';
 
 
 function Home() {
@@ -258,40 +259,63 @@ function Home() {
             {/* Section 2 ----------------------------------------------------------- */}
 
             <div className='col-md-12 padding_top_bottom_left_right_only  mb-5 pb-5'>
-                <div className='col-md-12 main_shadow_card '>
+                <div className='col-md-12  main_shadow_card '>
                     <div className='row'>
-                        <div className='col-md-3 border_right_11 py-4 '>
+                        <div className='col-md border_right_11 py-4 '>
                             <div className='col-md-12 ps-4 py-2'>
-                                <p className='m-0 p-0 env_text'>Envirnomental Sensitivity</p>
+                                <p className='m-0 p-0 env_text'>Air Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    The world of international supply chains involve a myriad of unknown risks and challenging regulations.
+                                    Our air filters are designed to maximize airflow while effectively trapping dust, dirt, and other contaminants. By ensuring that only clean air enters your machinery, these filters play a vital role in boosting engine performance and extending the lifespan of your equipment.
                                 </p>
                                 <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
                             </div>
                         </div>
-                        <div className='col-md-3 border_right_11 py-4 '>
+                        <div className='col-md border_right_11 py-4 '>
                             <div className='col-md-12 ps-4 py-2'>
-                                <p className='m-0 p-0 env_text'>Envirnomental Sensitivity</p>
+                                <p className='m-0 p-0 env_text'>Oil Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    The world of international supply chains involve a myriad of unknown risks and challenging regulations.
+                                    Our oil filters are engineered to provide superior filtration for your machinery, effectively capturing contaminants and ensuring that only clean oil circulates through the engine. This critical component not only protects your equipment from wear and tear but also enhances overall performance and longevity.
                                 </p>
                                 <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
                             </div>
                         </div>
-                        <div className='col-md-3 border_right_11 py-4 '>
+                        <div className='col-md border_right_11 py-4 '>
                             <div className='col-md-12 ps-4 py-2'>
-                                <p className='m-0 p-0 env_text'>Envirnomental Sensitivity</p>
+                                <p className='m-0 p-0 env_text'>Fuel Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    The world of international supply chains involve a myriad of unknown risks and challenging regulations.
+                                    Our fuel filters are meticulously designed to ensure the purity of fuel entering your engine. By effectively trapping impurities and contaminants, these filters enhance fuel efficiency and performance, ultimately contributing to the longevity of your equipment.
                                 </p>
                                 <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
                             </div>
                         </div>
-                        <div className='col-md-3 border_right_simple  py-4 '>
+                        {/* <div className='col-md-3 border_right_simple  py-4 '>
                             <div className='col-md-12 ps-4 py-2'>
-                                <p className='m-0 p-0 env_text'>Envirnomental Sensitivity</p>
+                                <p className='m-0 p-0 env_text'>Hydraulic Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    The world of international supply chains involve a myriad of unknown risks and challenging regulations.
+                                    Our hydraulic filters are expertly designed to ensure the cleanliness and efficiency of hydraulic systems. By effectively removing contaminants from hydraulic fluids, these filters enhance equipment performance and reliability, minimizing the risk of costly breakdowns
+                                </p>
+                                <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
+                            </div>
+                        </div> */}
+
+                    </div>
+                </div>
+                <div className='col-md-12 main_shadow_card mt-3 '>
+                    <div className='row'>
+                        <div className='col-md border_right_11 py-4 '>
+                            <div className='col-md-12 ps-4 py-2'>
+                                <p className='m-0 p-0 env_text'>Oil Filters</p>
+                                <p className='m-0 p-0 env_text_sub pt-3'>
+                                    Our oil filters are engineered to provide superior filtration for your machinery, effectively capturing contaminants and ensuring that only clean oil circulates through the engine. This critical component not only protects your equipment from wear and tear but also enhances overall performance and longevity.
+                                </p>
+                                <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
+                            </div>
+                        </div>
+                        <div className='col-md border_right_11 py-4 '>
+                            <div className='col-md-12 ps-4 py-2'>
+                                <p className='m-0 p-0 env_text'>Separators</p>
+                                <p className='m-0 p-0 env_text_sub pt-3'>
+                                    Our separators are engineered to effectively separate contaminants from fluids, ensuring the purity and performance of your machinery. These high-efficiency devices play a crucial role in prolonging the life of your equipment by maintaining optimal operational conditions.
                                 </p>
                                 <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
                             </div>
@@ -315,10 +339,32 @@ function Home() {
                     <div className='col-md-4'>
                         <div className='col-md-12 mt-3'>
                             <p className='m-0 p-0 env_text'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                Filter City is a premier supplier of high-performance filtration products in Saudi Arabia, offering a comprehensive range of filters from the world is most trusted and market-leading brands. We specialize in delivering top-quality filtration solutions for heavy machinery across various industries, including construction, mining, agriculture, and transportation. Our extensive portfolio features filters from globally recognized brands such as:
                             </p>
-                            <p className='m-0 p-0 env_text_sub pt-4'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            <div className='col-md-12 pt-2'>
+                                <div className='row'>
+                                    <div className='col-md-6'>
+                                        <ul className='ps-md-3 mb-md-auto mb-0'>
+                                            <li><b>Fleet Guard</b></li>
+                                            <li><b>Donaldson</b></li>
+                                            <li><b>MANN Filters</b></li>
+                                            <li><b>Caterpillar</b></li>
+                                            <li><b>Hengst Filters</b></li>
+                                        </ul>
+                                    </div>
+                                    <div className='col-md-6'>
+                                        <ul className='ps-md-1'>
+                                            <li><b>Parker Filtration</b></li>
+                                            <li><b>Perkins</b></li>
+                                            <li><b>Hyundai</b></li>
+                                            <li><b>Bobcat</b></li>
+                                            <li><b>JCB</b></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className='m-0 p-0 env_text_sub'>
+                                At Filter City, we understand the importance of keeping your machinery running efficiently, which is why we offer only the highest quality filters that ensure optimal performance and longevity. Our products are designed to protect your equipment from contaminants, reduce maintenance costs, and minimize downtime, allowing you to focus on what matters most—maximizing productivity. With a customer-centric approach, we are committed to providing exceptional service, fast delivery, and reliable filtration solutions to meet all your machinery needs.
                             </p>
                             <p className='m-0 p-0 env_text_sub_ceo pt-4'>
                                 CEO & FOUNDER
@@ -360,7 +406,7 @@ function Home() {
                             <div className='col-md-11'>
                                 <p className='m-0 p-0 font_listing_qq'>Quality</p>
                                 <p className='m-0 p-0 env_text_sub pt-2'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Our filters effectively capture contaminants, including dirt, dust, metal particles, and other impurities, preventing premature wear and costly breakdowns. With high-efficiency filtration media, we ensure excellent dirt-holding capacity while maintaining optimal airflow and fluid flow.
                                 </p>
                             </div>
                         </div>
@@ -369,9 +415,16 @@ function Home() {
                                 <GoDotFill className='icon_orangee_dot' />
                             </div>
                             <div className='col-md-11'>
-                                <p className='m-0 p-0 font_listing_qq'>Reliability</p>
+                                <p className='m-0 p-0 font_listing_qq'>Heavy-Duty Durability</p>
                                 <p className='m-0 p-0 env_text_sub pt-2'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Designed for the most demanding environments, our filters feature:
+                                    <div className='col-md-12'>
+                                        <ul className='ps-md-1'>
+                                            <li><b className='text-black'>Reinforced</b> casings for high-pressure resistance</li>
+                                            <li><b className='text-black'>Strong seals</b> to prevent leaks</li>
+                                            <li><b className='text-black'>High-temperature</b> tolerance for extreme operating conditions.</li>
+                                        </ul>
+                                    </div>
                                 </p>
                             </div>
                         </div>
@@ -380,9 +433,9 @@ function Home() {
                                 <GoDotFill className='icon_orangee_dot' />
                             </div>
                             <div className='col-md-11'>
-                                <p className='m-0 p-0 font_listing_qq'>Innovations</p>
+                                <p className='m-0 p-0 font_listing_qq'>Advanced Filtration Technology</p>
                                 <p className='m-0 p-0 env_text_sub pt-2'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Our filters integrate the latest <b className='text-black'>Nano-fiber filtration technology</b>, providing superior dirt-holding capacity while maintaining optimal airflow and fluid dynamics. This ensures the highest level of <b className='text-black'>contaminant capture efficiency</b>, extending engine and hydraulic system life.
                                 </p>
                             </div>
                         </div>
@@ -405,7 +458,7 @@ function Home() {
                         </div>
                         <div className='col-md-6'>
                             <p className='m-0 p-0 env_text_sub'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                Our spare parts are sourced from top manufacturers, ensuring that you receive durable and reliable components to maintain your machinery's performance. With a wide selection available, we cater to various models and brands, guaranteeing that you can find the right parts for your needs.
                             </p>
                             <div className='col-md-12 pt-2'>
                                 <span className='btn btn-light btn-lg button_cutome_orange px-md-5 mt-3'>
@@ -418,7 +471,40 @@ function Home() {
                 <div className='col-md-12 mt-5 pt-4  mb-5 '>
                     <div className='col-md-12 bg-white '>
                         <div className='row'>
-                            <div className='col-md-3 border_right_12 py-4 '>
+                            <div className='col-md-4 border_right_12 py-4 '>
+                                <div className='col-md-12 ps-4 py-2'>
+                                    {/* <PiFactoryLight className='font_s3_pp' /> */}
+                                    <img className='img-fluid' src='/images/bob.png' />
+                                    <p className='m-0 p-0 env_text padding_1'>BOBCAT</p>
+                                    <p className='m-0 p-0 env_text_sub pt-3'>
+                                        Filter City is proud to supply Bobcat Parts, providing top-quality filters and spare parts designed specifically for Bobcat machinery. Our filters ensure the highest level of performance, durability, and efficiency, enabling operators to maximize their equipment's capabilities in demanding environments. With a commitment to excellence, we guarantee that our Bobcat Parts filters meet the rigorous standards expected by industry professionals.
+                                    </p>
+                                    <p className='m-0 pt-4 arroe_colorcc'><span className='readmore_text'>Read More</span> <FaArrowRight /></p>
+                                </div>
+                            </div>
+                            <div className='col-md-4 border_right_12 py-4 '>
+                                <div className='col-md-12 ps-4 py-2'>
+                                    <img className='img-fluid' src='/images/JCB.png' />
+                                    {/* <PiFactoryLight className='font_s3_pp' /> */}
+                                    <p className='m-0 p-0 env_text padding_2'>JCB</p>
+                                    <p className='m-0 p-0 env_text_sub pt-3'>
+                                        Our JCB spare parts are crafted to meet the highest industry standards, ensuring optimal compatibility and performance for your machinery. With a comprehensive range of components available, you can rely on us to provide the quality you need to keep your JCB equipment running smoothly.
+                                    </p>
+                                    <p className='m-0 pt-4 arroe_colorcc'><span className='readmore_text'>Read More</span> <FaArrowRight /></p>
+                                </div>
+                            </div>
+                            <div className='col-md-4 pe-4 py-4 '>
+                                <div className='col-md-12 ps-4 py-2'>
+                                    <img className='img-fluid' src='/images/kub.png' />
+                                    {/* <PiFactoryLight className='font_s3_pp' /> */}
+                                    <p className='m-0 p-0 env_text padding_3'>Kubota</p>
+                                    <p className='m-0 p-0 env_text_sub pt-3'>
+                                        Our Kubota spare parts are built to meet the highest standards of quality and performance, ensuring that your Kubota machinery operates smoothly and efficiently. With a comprehensive selection available, we provide the right components to keep your equipment in top condition, enabling you to tackle any job with confidence
+                                    </p>
+                                    <p className='m-0 pt-4 arroe_colorcc'><span className='readmore_text'>Read More</span> <FaArrowRight /></p>
+                                </div>
+                            </div>
+                            {/* <div className='col-md-3  py-4 '>
                                 <div className='col-md-12 ps-4 py-2'>
                                     <PiFactoryLight className='font_s3_pp' />
                                     <p className='m-0 p-0 env_text'>Envirnomental Sensitivity</p>
@@ -427,37 +513,7 @@ function Home() {
                                     </p>
                                     <p className='m-0 pt-4 arroe_colorcc'><span className='readmore_text'>Read More</span> <FaArrowRight /></p>
                                 </div>
-                            </div>
-                            <div className='col-md-3 border_right_12 py-4 '>
-                                <div className='col-md-12 ps-4 py-2'>
-                                    <PiFactoryLight className='font_s3_pp' />
-                                    <p className='m-0 p-0 env_text'>Envirnomental Sensitivity</p>
-                                    <p className='m-0 p-0 env_text_sub pt-3'>
-                                        The world of international supply chains involve a myriad of unknown risks and challenging regulations.
-                                    </p>
-                                    <p className='m-0 pt-4 arroe_colorcc'><span className='readmore_text'>Read More</span> <FaArrowRight /></p>
-                                </div>
-                            </div>
-                            <div className='col-md-3 border_right_12 py-4 '>
-                                <div className='col-md-12 ps-4 py-2'>
-                                    <PiFactoryLight className='font_s3_pp' />
-                                    <p className='m-0 p-0 env_text'>Envirnomental Sensitivity</p>
-                                    <p className='m-0 p-0 env_text_sub pt-3'>
-                                        The world of international supply chains involve a myriad of unknown risks and challenging regulations.
-                                    </p>
-                                    <p className='m-0 pt-4 arroe_colorcc'><span className='readmore_text'>Read More</span> <FaArrowRight /></p>
-                                </div>
-                            </div>
-                            <div className='col-md-3  py-4 '>
-                                <div className='col-md-12 ps-4 py-2'>
-                                    <PiFactoryLight className='font_s3_pp' />
-                                    <p className='m-0 p-0 env_text'>Envirnomental Sensitivity</p>
-                                    <p className='m-0 p-0 env_text_sub pt-3'>
-                                        The world of international supply chains involve a myriad of unknown risks and challenging regulations.
-                                    </p>
-                                    <p className='m-0 pt-4 arroe_colorcc'><span className='readmore_text'>Read More</span> <FaArrowRight /></p>
-                                </div>
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>
@@ -469,17 +525,26 @@ function Home() {
                 <div className='row'>
                     <div className='col-md-6 background_orange_11 padding_top_bottom_left_1 py-5'>
                         <div className='col-md-12 pe-md-5 py-5'>
-                            <p className='m-0 p-0 little_orange_text text-light'>Manufacture A Varuety Of Hight Quality Products</p>
+                            <p className='m-0 p-0 little_orange_text text-light'>A Leading Heavy Machinery Filters Manufacturing Company,
+                                Serving Since 1992.
+                            </p>
                             <p className='m-0 p-0 pt-2 font_big_heading_sub text-light'>
-                                A Leading Industrial & Manufacturing Company, Serving Since 1997.
+                                Filter City Trading Company– The Largest Manufacturer of Heavy Machinery Filters & Components
                             </p>
                             <p className='m-0 p-0 env_text_sub pt-4 text-light' >
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                Filter City, formerly known as WESTERN AL-NOOR , is a leading manufacturer and supplier of high-quality filtration solutions for heavy machinery and industrial equipment. With years of expertise and a strong reputation in the industry, we specialize in producing a comprehensive range of oil, air, and fuel filters, as well as separators, filter housings, filter head pumps, oil baths, and mountings.<br />
+                                Our products are engineered to meet the highest performance standards, ensuring superior filtration efficiency and durability for various heavy-duty applications. We cater to a diverse range of industries, including construction, agriculture, mining, and transportation, providing reliable solutions for brands such as JCB and Bobcat.<br />
+                                At Filter City, we are committed to delivering innovation, quality, and customer satisfaction. Whether you need standard filtration products or custom-engineered solutions, we are your trusted partner in ensuring optimal performance and longevity for your machinery.
+
                             </p>
                             <div className='col-md-12 mt-5'>
-                                <div className='row'>
+                                <p className='m-0 p-0 little_orange_text text-light'>
+                                    <i className='text-light'><TiPin />   Your One-Stop Destination for Heavy Machinery Filtration & Spare Parts</i>
+                                </p>
+                                <p className='m-0 p-0 little_orange_tex1t pt-3 text-light'>
+                                    For inquiries or to explore our product range, contact us today!
+                                </p>
+                                {/* <div className='row'>
                                     <div className='col-md-4'>
                                         <div className='col-md-12'>
                                             <PiFactoryThin className='factory_thin' />
@@ -504,7 +569,7 @@ function Home() {
                                             <div className='line_ww mt-3'></div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
