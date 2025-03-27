@@ -216,11 +216,11 @@ function Home() {
                     </div>
                 </div> */}
 
-                <div className='col-md-12 background_for_image_h universal_padding_allp' >
+                <div className='col-md-12 background_for_image_h universal_padding_allp pt-5' >
                     <div className='row pt-md-5 '>
                         <div className='col-md-6 '>
                             <div className='col-md-12 text_for_head1' >
-                                <p className='m-0 p-0 industry_text_pp'>Welcome to <br />Filter City Trading Co.</p>
+                                <p className='m-0 p-0 industry_text_pp'>Filter City </p>
                                 <p className='m-0 p-0 color_of_text_sub1 pt-3'>Filter City is a leading supplier specializing in all types of heavy machinery filters, providing high-quality solutions for industries such as construction, mining, agriculture, and transportation. With an extensive range of filters for machinery including excavators, bulldozers, cranes, and more, we ensure optimal performance and durability for your equipment.</p>
                                 <div className='row pt-5'>
                                     <div className='col-md-6 '>
@@ -304,9 +304,9 @@ function Home() {
                     <div className='row'>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='col-md-12 ps-4 py-2'>
-                                <p className='m-0 p-0 env_text'>Oil Filters</p>
+                                <p className='m-0 p-0 env_text'>Hydraulic Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our oil filters are engineered to provide superior filtration for your machinery, effectively capturing contaminants and ensuring that only clean oil circulates through the engine. This critical component not only protects your equipment from wear and tear but also enhances overall performance and longevity.
+                                    Our hydraulic filters are expertly designed to ensure the cleanliness and efficiency of hydraulic systems. By effectively removing contaminants from hydraulic fluids, these filters enhance equipment performance and reliability, minimizing the risk of costly breakdowns.
                                 </p>
                                 <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
                             </div>
@@ -331,7 +331,7 @@ function Home() {
             <div className='col-md-12 padding_top_bottom_left_right_only padding_start_for_special_heading'>
                 <p className='m-0 p-0 little_orange_text'>Manufacture A Varuety Of Hight Quality Products</p>
                 <p className='m-0 p-0 font_big_heading'>
-                    A Leading Industrial & Manufacturing<br /> Company, Serving Since 1997.
+                    Providing A Variety of Hight <br />Quality Filters
                 </p>
             </div>
             <div className='col-md-12 padding_top_bottom_left_right_only pt-md-5 mt-md-4 pb-5'>
@@ -450,9 +450,9 @@ function Home() {
                 <div className='col-md-12 mt-5'>
                     <div className='row'>
                         <div className='col-md-6'>
-                            <p className='m-0 p-0 little_orange_text'>Manufacture A Varuety Of Hight Quality Products</p>
+                            {/* <p className='m-0 p-0 little_orange_text'>Manufacture A Varuety Of Hight Quality Products</p> */}
                             <p className='m-0 p-0 font_big_heading_sub'>
-                                A Leading Industrial & Manufacturing Company, Serving Since 1997.
+                                Precision Crafted Excellence: Manufacturing a Diverse Range of High-Quality Spare Parts
                             </p>
 
                         </div>
