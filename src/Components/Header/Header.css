@@ -781,6 +781,13 @@
     background-color: white;
 }
 
+.image_hei_ww_adj
+{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .border_for_lg {
     border-radius: 8px !important;
 }

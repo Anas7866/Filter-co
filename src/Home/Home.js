@@ -262,8 +262,9 @@ function Home() {
                 <div className='col-md-12  main_shadow_card '>
                     <div className='row'>
                         <div className='col-md border_right_11 py-4 '>
-                            <div className='col-md-12 ps-4 py-2'>
-                                <p className='m-0 p-0 env_text'>Air Filters</p>
+                            <div className='col-md-12 ps-3 py-2'>
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/1.jpg' />
+                                <p className='m-0 p-0 env_text mt-3'>Air Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
                                     Our air filters are designed to maximize airflow while effectively trapping dust, dirt, and other contaminants. By ensuring that only clean air enters your machinery, these filters play a vital role in boosting engine performance and extending the lifespan of your equipment.
                                 </p>
@@ -271,8 +272,9 @@ function Home() {
                             </div>
                         </div>
                         <div className='col-md border_right_11 py-4 '>
-                            <div className='col-md-12 ps-4 py-2'>
-                                <p className='m-0 p-0 env_text'>Oil Filters</p>
+                            <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/3.jpg' />
+                            <div className='col-md-12 ps-3 py-2'>
+                                <p className='m-0 p-0 env_text mt-3'>Oil Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
                                     Our oil filters are engineered to provide superior filtration for your machinery, effectively capturing contaminants and ensuring that only clean oil circulates through the engine. This critical component not only protects your equipment from wear and tear but also enhances overall performance and longevity.
                                 </p>
@@ -280,8 +282,11 @@ function Home() {
                             </div>
                         </div>
                         <div className='col-md border_right_11 py-4 '>
-                            <div className='col-md-12 ps-4 py-2'>
-                                <p className='m-0 p-0 env_text'>Fuel Filters</p>
+                            <div className='pe-2'>
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/2.png' />
+                            </div>
+                            <div className='col-md-12 ps-3 py-2 '>
+                                <p className='m-0 p-0 env_text mt-3'>Fuel Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
                                     Our fuel filters are meticulously designed to ensure the purity of fuel entering your engine. By effectively trapping impurities and contaminants, these filters enhance fuel efficiency and performance, ultimately contributing to the longevity of your equipment.
                                 </p>
@@ -303,6 +308,9 @@ function Home() {
                 <div className='col-md-12 main_shadow_card mt-3 '>
                     <div className='row'>
                         <div className='col-md border_right_11 py-4 '>
+                            <div className='pe-2 ps-3'>
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/4.jpg' />
+                            </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Hydraulic Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
@@ -312,6 +320,9 @@ function Home() {
                             </div>
                         </div>
                         <div className='col-md border_right_11 py-4 '>
+                            <div className='pe-2 ps-3 '>
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/5.jpg' />
+                            </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Separators</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
