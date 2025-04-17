@@ -266,7 +266,7 @@ function Home() {
                                 <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/1.jpg' />
                                 <p className='m-0 p-0 env_text mt-3'>Air Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our air filters are designed to maximize airflow while effectively trapping dust, dirt, and other contaminants. By ensuring that only clean air enters your machinery, these filters play a vital role in boosting engine performance and extending the lifespan of your equipment.
+                                    Our air filters are designed to maximize airflow while effectively trapping dust, dirt, and other contaminants. By ensuring that only clean air enters your machinery, these filters play a vital role in boosting engine performance and extending the lifespan of your equipment..
                                 </p>
                                 <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
                             </div>
