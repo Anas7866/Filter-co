@@ -1,11 +1,11 @@
 .header_background_orange {
-    background-color: #FF7505;
+    background-color: #EC1A24;
     /* height: 2vh; */
 }
 
 .background_blue {
     background-color: black;
-    border-bottom: 2px solid #FF7505;
+    border-bottom: 2px solid #EC1A24;
 
 }
 
@@ -215,7 +215,7 @@
 }
 
 .border_of_cards {
-    /* border: 1px solid #FF7505; */
+    /* border: 1px solid #EC1A24; */
     -webkit-box-shadow: -3px 7px 33px -4px rgba(0, 0, 0, 0.289);
     -moz-box-shadow: -3px 7px 33px -4px rgba(0, 0, 0, 0.289);
     box-shadow: -3px 7px 33px -4px rgba(0, 0, 0, 0.289);
@@ -225,7 +225,7 @@
 }
 
 .border_of_cards:hover {
-    /* border: 1px solid #FF7505; */
+    /* border: 1px solid #EC1A24; */
     -webkit-box-shadow: -3px 7px 33px -4px #e91e2166;
     -moz-box-shadow: -3px 7px 33px -4px #e91e2166;
     box-shadow: -3px 7px 33px -4px #e91e2166;
@@ -254,18 +254,18 @@
 }
 
 .border_for_image {
-    border: 3px solid #FF7505;
+    border: 3px solid #EC1A24;
     border-radius: 10px;
 }
 
 .border_for_image1 {
-    border: 3px solid #FF7505;
+    border: 3px solid #EC1A24;
     border-radius: 10px;
 }
 
 
 .color_towerld {
-    color: #FF7505;
+    color: #EC1A24;
 }
 
 .font_for_p {
@@ -289,7 +289,7 @@
 }
 
 .button_white_tabs_unactive {
-    background-color: #FF7505 !important;
+    background-color: #EC1A24 !important;
     border-radius: 0px;
     padding-top: 1.5px;
     padding-bottom: 1.5px;
@@ -331,7 +331,7 @@
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
     /* padding: 25px 15px; */
     transition: all .5s;
-    background-color: #FF7505;
+    background-color: #EC1A24;
     color: white;
     border-radius: 8px;
     overflow: hidden;
@@ -380,7 +380,7 @@
 }
 
 .line_ww_00 {
-    background-color: #FF7505 !important;
+    background-color: #EC1A24 !important;
     height: 3px;
     width: 40px;
 }
@@ -433,7 +433,7 @@
     -webkit-transform: scale(1.1);
     /* Safari 3-8 */
     transform: scale(1.1);
-    background-color: #FF7505;
+    background-color: #EC1A24;
     color: white !important;
     transition: 0.5s ease-in-out;
 }
@@ -445,7 +445,7 @@
 
 .border_right_11:hover {
     border-right: 0px solid #EBEBEB;
-    background-color: #FF7505;
+    background-color: #EC1A24;
     color: white !important;
     transition: 0.5s ease-in-out;
     -ms-transform: scale(1.1);
@@ -470,7 +470,7 @@
 
 .border_right_12:hover {
     border-right: 0px solid #EBEBEB;
-    background-color: #FF7505;
+    background-color: #EC1A24;
     color: white !important;
     transition: 0.5s ease-in-out;
     -ms-transform: scale(1.1);
@@ -518,7 +518,7 @@
 .env_text_sub_orange {
     font-size: 16px;
     font-weight: 600;
-    color: #FF7505;
+    color: #EC1A24;
 }
 
 .img_single_gray {
@@ -529,7 +529,7 @@
 }
 
 .orange_border_color {
-    border: 3px solid #FF7505;
+    border: 3px solid #EC1A24;
     border-radius: 50px;
     padding: 3px;
 }
@@ -545,7 +545,7 @@
 }
 
 .color_stars {
-    color: #FF7505;
+    color: #EC1A24;
 }
 
 .env_text_sub_ceo {
@@ -563,13 +563,13 @@
 }
 
 .box2_background {
-    background-color: #FF7505;
+    background-color: #EC1A24;
     height: 29vh;
     margin-top: 70px;
 }
 
 .box3_background {
-    background-color: #FF7505;
+    background-color: #EC1A24;
     z-index: 111;
     height: 10vh;
 }
@@ -581,7 +581,7 @@
 }
 
 .icon_orangee_dot {
-    color: #FF7505;
+    color: #EC1A24;
 }
 
 .font_listing_qq {
@@ -634,19 +634,19 @@
 }
 
 .arroe_colorcc {
-    color: #FF7505;
+    color: #EC1A24;
   
 }
 
 .little_orange_text {
     font-size: 12px;
-    color: #DC7524;
+    color: #EC1A24;
     font-weight: 600;
 }
 
 .little_orange_tex1t {
     font-size: 14px;
-    color: #DC7524;
+    color: #EC1A24;
     font-weight: 600;
 }
 
@@ -696,7 +696,7 @@
 }
 
 .button_cutome_orange {
-    background-color: #FF7505;
+    background-color: #EC1A24;
     border-radius: 0px !important;
     color: white !important;
     font-size: 16px;
@@ -750,7 +750,7 @@
 
 .font_s3_pp {
     font-size: 100px;
-    color: #FF7505;
+    color: #EC1A24;
 }
 
 .readmore_text {
@@ -759,7 +759,7 @@
 }
 
 .background_orange_11 {
-    background-color: #FF7505;
+    background-color: #EC1A24;
 }
 
 .background_gray_22 {
@@ -816,7 +816,7 @@
 .background_blue_position {
     position: absolute;
     z-index: 11;
-    background-color: #FF7505;
+    background-color: #EC1A24;
     color: white;
     height: 100%;
     width: 100%;
@@ -885,7 +885,7 @@
 
 
 .backtotopbutton {
-    background-color: #FF7505 !important;
+    background-color: #EC1A24 !important;
     height: 50px !important;
     width: 50px !important;
     padding: 0px !important;
@@ -905,7 +905,7 @@
 }
 
 i {
-    color: #FF7505;
+    color: #EC1A24;
 }
 
 
@@ -913,7 +913,7 @@ i {
     background-color: rgba(255, 255, 255, 0);
     width: 80%;
     border-radius: 20px;
-    border: 1px solid #FF7505 !important;
+    border: 1px solid #EC1A24 !important;
     color: white !important;
     --bs-form-select-bg-img: url(../../../public/images/down.png);
 }
@@ -922,7 +922,7 @@ i {
     background-color: rgba(255, 255, 255, 0);
     width: 80%;
     border-radius: 20px;
-    border: 1px solid #FF7505 !important;
+    border: 1px solid #EC1A24 !important;
     color: white !important;
     --bs-form-select-bg-img: url(../../../public/images/down.png);
 
@@ -932,7 +932,7 @@ i {
     background-color: rgba(255, 255, 255, 0);
     width: 80%;
     border-radius: 20px;
-    border: 1px solid #FF7505 !important;
+    border: 1px solid #EC1A24 !important;
     color: white !important;
     --bs-form-select-bg-img: url(../../../public/images/down.png);
 
@@ -976,7 +976,7 @@ i {
 }
 
 .borderbottom_activee {
-    border-bottom: 3px solid #FF7505;
+    border-bottom: 3px solid #EC1A24;
 }
 
 .logo_font_txt {
@@ -986,11 +986,11 @@ i {
 }
 
 .orange_button_color {
-    background-color: #FF7505;
+    background-color: #EC1A24;
     color: white;
     font-weight: 500 !important;
     border-radius: 0px !important;
-    border: 1px solid #FF7505;
+    border: 1px solid #EC1A24;
 }
 
 .padding_left_right_header {
@@ -1090,6 +1090,11 @@ i {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.border_for_img {
+    border: 1px solid #EC1A24;
+    border-radius: 8px;
 }
 
 
@@ -1202,10 +1207,10 @@ i {
     }
 
     .button_cutome1 {
-        background-color: #FF7505;
+        background-color: #EC1A24;
         border-radius: 8px !important;
         color: white !important;
-        border: 1px solid #FF7505;
+        border: 1px solid #EC1A24;
         width: 80%;
     }
 

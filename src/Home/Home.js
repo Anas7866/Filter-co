@@ -263,7 +263,7 @@ function Home() {
                     <div className='row'>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='col-md-12 ps-3 py-2'>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/1.jpg' />
+                                {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/1.jpg' /> */}
                                 <p className='m-0 p-0 env_text mt-3'>Air Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
                                     Our air filters are designed to maximize airflow while effectively trapping dust, dirt, and other contaminants. By ensuring that only clean air enters your machinery, these filters play a vital role in boosting engine performance and extending the lifespan of your equipment..
@@ -272,7 +272,7 @@ function Home() {
                             </div>
                         </div>
                         <div className='col-md border_right_11 py-4 '>
-                            <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/3.jpg' />
+                            {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/3.jpg' /> */}
                             <div className='col-md-12 ps-3 py-2'>
                                 <p className='m-0 p-0 env_text mt-3'>Oil Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
@@ -283,7 +283,7 @@ function Home() {
                         </div>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2'>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/2.png' />
+                                {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/2.png' /> */}
                             </div>
                             <div className='col-md-12 ps-3 py-2 '>
                                 <p className='m-0 p-0 env_text mt-3'>Fuel Filters</p>
@@ -309,7 +309,7 @@ function Home() {
                     <div className='row'>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2 ps-3'>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/4.jpg' />
+                                {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/4.jpg' /> */}
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Hydraulic Filters</p>
@@ -321,7 +321,7 @@ function Home() {
                         </div>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2 ps-3 '>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/5.jpg' />
+                                {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/5.jpg' /> */}
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Separators</p>
@@ -933,41 +933,44 @@ function Home() {
                     <div className='row'>
                         <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
-                                <div className='col-md-12 img_gray'></div>
-                                <div className='px-3 py-3'>
+                                {/* <div className='col-md-12 img_gray'></div> */}
+                                <img className='img-fluid border_for_img' src='/images/b1.png' />
+                                {/* <div className='px-3 py-3'>
                                     <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
                                     <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
                                     <p className='m-0 p-0 env_text_sub mt-2'>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                     </p>
                                     <p className='m-0 pt-3 arroe_colorcc'><span className='readmore_text'>Explore Case Study</span> <FaArrowRight /></p>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
-                                <div className='col-md-12 img_gray1'></div>
-                                <div className='px-3 py-3'>
+                                {/* <div className='col-md-12 img_gray1'></div> */}
+                                <img className='img-fluid border_for_img' src='/images/b2.png' />
+                                {/* <div className='px-3 py-3'>
                                     <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
                                     <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
                                     <p className='m-0 p-0 env_text_sub mt-2'>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                     </p>
                                     <p className='m-0 pt-3 arroe_colorcc'><span className='readmore_text'>Explore Case Study</span> <FaArrowRight /></p>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
-                                <div className='col-md-12 img_gray2'></div>
-                                <div className='px-3 py-3'>
+                                {/* <div className='col-md-12 img_gray2'></div> */}
+                                <img className='img-fluid border_for_img' src='/images/b3.png' />
+                                {/* <div className='px-3 py-3'>
                                     <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
                                     <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
                                     <p className='m-0 p-0 env_text_sub mt-2'>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                                     </p>
                                     <p className='m-0 pt-3 arroe_colorcc'><span className='readmore_text'>Explore Case Study</span> <FaArrowRight /></p>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

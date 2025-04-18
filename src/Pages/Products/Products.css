@@ -16,7 +16,7 @@
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
     padding: 0px 15px;
     transition: all .5s;
-    background-color: #FF7505;
+    background-color: #EC1A24;
     color: white;
     border-radius: 8px;
 }
@@ -27,7 +27,7 @@
 
 
 .icon_green_t {
-    color: #FF7505;
+    color: #EC1A24;
 }
 
 .alignment1 {
@@ -35,7 +35,7 @@
 }
 
 .border_for_green {
-    border: 1px solid #FF7505;
+    border: 1px solid #EC1A24;
     color: black;
     border-radius: 20px;
 }
@@ -46,7 +46,7 @@
     z-index: 1112;
     width: 13%;
     border-radius: 10px;
-    border: 2px solid #FF7505!important;
+    border: 2px solid #EC1A24!important;
 }
 
 .font_for_icon {
