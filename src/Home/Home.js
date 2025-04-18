@@ -872,7 +872,7 @@ function Home() {
                         <img className='img-fluid image_sizing_logos' src='/imagess/bob.png' />
                     </div>
                     <div>
-                        <img className='img-fluid image_sizing_logos' src='/imagess/cat.png' />
+                        <img className='img-fluid image_sizing_logos' src='/imagess/Cat.png' />
                     </div>
                     <div>
                         <img className='img-fluid image_sizing_logos' src='/imagess/cumm.png' />
