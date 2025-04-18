@@ -263,7 +263,7 @@ function Home() {
                     <div className='row'>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='col-md-12 ps-3 py-2'>
-                                {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/1.jpg' /> */}
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/filter66.jpeg' />
                                 <p className='m-0 p-0 env_text mt-3'>Air Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
                                     Our air filters are designed to maximize airflow while effectively trapping dust, dirt, and other contaminants. By ensuring that only clean air enters your machinery, these filters play a vital role in boosting engine performance and extending the lifespan of your equipment..
@@ -272,7 +272,7 @@ function Home() {
                             </div>
                         </div>
                         <div className='col-md border_right_11 py-4 '>
-                            {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/3.jpg' /> */}
+                            <img className='img-fluid w-100 image_hei_ww_adj' src='/images/filter11.jpeg' />
                             <div className='col-md-12 ps-3 py-2'>
                                 <p className='m-0 p-0 env_text mt-3'>Oil Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
@@ -283,7 +283,7 @@ function Home() {
                         </div>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2'>
-                                {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/2.png' /> */}
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/filter55.jpeg' />
                             </div>
                             <div className='col-md-12 ps-3 py-2 '>
                                 <p className='m-0 p-0 env_text mt-3'>Fuel Filters</p>
@@ -309,7 +309,7 @@ function Home() {
                     <div className='row'>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2 ps-3'>
-                                {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/4.jpg' /> */}
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/hyd.jpeg' />
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Hydraulic Filters</p>
@@ -321,6 +321,7 @@ function Home() {
                         </div>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2 ps-3 '>
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/filter22.jpeg' />
                                 {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/5.jpg' /> */}
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
@@ -868,25 +869,48 @@ function Home() {
             <div className='col-md-12 padding_top_bottom_left_right_only pb-5'>
                 <div className='flex_universal'>
                     <div>
-                        <img className='img-fluid image_sizing_logos' src='/images/capital2.png' />
+                        <img className='img-fluid image_sizing_logos' src='/imagess/bob.png' />
                     </div>
                     <div>
-                        <img className='img-fluid image_sizing_logos' src='/images/capital2.png' />
+                        <img className='img-fluid image_sizing_logos' src='/imagess/cat.png' />
                     </div>
                     <div>
-                        <img className='img-fluid image_sizing_logos' src='/images/capital2.png' />
+                        <img className='img-fluid image_sizing_logos' src='/imagess/cumm.png' />
                     </div>
                     <div>
-                        <img className='img-fluid image_sizing_logos' src='/images/capital2.png' />
+                        <img className='img-fluid image_sizing_logos' src='/imagess/don.png' />
                     </div>
                     <div>
-                        <img className='img-fluid image_sizing_logos' src='/images/capital2.png' />
+                        <img className='img-fluid image_sizing_logos' src='/imagess/doos.png' />
                     </div>
                     <div>
-                        <img className='img-fluid image_sizing_logos' src='/images/capital2.png' />
+                        <img className='img-fluid image_sizing_logos' src='/imagess/fleet.png' />
                     </div>
                     <div>
-                        <img className='img-fluid image_sizing_logos' src='/images/capital2.png' />
+                        <img className='img-fluid image_sizing_logos' src='/imagess/Artboard 15.png' />
+                    </div>
+                </div>
+                <div className='flex_universal'>
+                    <div>
+                        <img className='img-fluid image_sizing_logos' src='/imagess/jcb.png' />
+                    </div>
+                    <div>
+                        <img className='img-fluid image_sizing_logos' src='/imagess/kub.png' />
+                    </div>
+                    <div>
+                        <img className='img-fluid image_sizing_logos' src='/imagess/mann.png' />
+                    </div>
+                    <div>
+                        <img className='img-fluid image_sizing_logos' src='/imagess/mitsu.png' />
+                    </div>
+                    <div>
+                        <img className='img-fluid image_sizing_logos' src='/imagess/per.png' />
+                    </div>
+                    <div>
+                        <img className='img-fluid image_sizing_logos' src='/imagess/wix.png' />
+                    </div>
+                    <div>
+                        <img className='img-fluid image_sizing_logos' src='/imagess/hen.png' />
                     </div>
                 </div>
             </div>

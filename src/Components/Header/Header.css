@@ -727,7 +727,7 @@
 .image_sizing_logos {
     height: 140px;
     width: 180px;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 
 .background_lg {
@@ -783,9 +783,11 @@
 
 .image_hei_ww_adj
 {
-    height: 300px;
-    width: 100%;
+    height: 100px;
+    width: 100px !important;
     object-fit: cover;
+    border: 1px solid #EC1A24;
+    border-radius: 10px;
 }
 
 .border_for_lg {
