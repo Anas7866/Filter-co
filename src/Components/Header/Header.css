@@ -9,6 +9,11 @@
 
 }
 
+.webb_red_bg {
+    background-color: #EC1A24;
+    color: white;
+}
+
 .fade-container {
     position: relative;
     width: 100%;
@@ -23,6 +28,14 @@
     font-weight: bold;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+}
+
+.image_adjust_on_vide {
+    position: absolute;
+    z-index: 111;
+    padding-left: 100px;
+    padding-right: 100px;
+    top: 80px;
 }
 
 .fade-container .fade-text {
@@ -143,6 +156,14 @@
     z-index: 11111;
     width: 100%;
 }
+
+.button_srcondary_position112 {
+    position: fixed;
+    bottom: 135px;
+    z-index: 11111;
+    width: 100%;
+}
+
 
 .button_cutome {
     background-color: white !important;
@@ -635,7 +656,7 @@
 
 .arroe_colorcc {
     color: #EC1A24;
-  
+
 }
 
 .little_orange_text {
@@ -650,18 +671,15 @@
     font-weight: 600;
 }
 
-.padding_1
-{
+.padding_1 {
     padding-top: 33px !important;
 }
 
-.padding_2
-{
+.padding_2 {
     padding-top: 20px !important;
 }
 
-.padding_3
-{
+.padding_3 {
     padding-top: 34px !important;
 }
 
@@ -781,8 +799,7 @@
     background-color: white;
 }
 
-.image_hei_ww_adj
-{
+.image_hei_ww_adj {
     height: 100px;
     width: 100px !important;
     object-fit: cover;
@@ -870,7 +887,7 @@
 }
 
 .vedioPlayer {
-    height: 300px;
+    /* height: 600px !important; */
     /* Set the desired height */
     width: auto;
     /* Keep the width proportional to the height */
@@ -879,9 +896,9 @@
 .vedioPlayer {
     width: 100%;
     /* Makes the video responsive */
-    max-height: 550px;
+    max-height: 100vh;
     /* Limits the height */
-    object-fit: cover;
+    object-fit: fill;
     /* Optional: ensures the video covers the area, but may crop */
 }
 
@@ -1012,7 +1029,17 @@ i {
 
 .industry_text_pp {
     font-size: 60px;
-    line-height: 90px;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+.industry_text_pp1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.industry_text_pp2 {
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -1038,13 +1065,15 @@ i {
 }
 
 .background_for_image_h {
-    background-image: url(/public/images/big2.jpg);
+    /* background-image: url(/public/images/big2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 100%;
-    /* background-image: linear-gradient(#3C3C3C, #656565, #656565); */
-    background-attachment: fixed;
+    background-position: 100% 100%; */
+    background-image: linear-gradient(#3C3C3C, #656565, #656565);
+    /* background-attachment: fixed; */
     height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
 .text_for_head1 {

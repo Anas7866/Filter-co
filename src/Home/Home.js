@@ -5,11 +5,11 @@ import "react-multi-carousel/lib/styles.css";
 import { CiDeliveryTruck } from 'react-icons/ci';
 import { PiFactoryLight, PiFactoryThin, PiHandSoap, PiNuclearPlant, PiNuclearPlantLight, PiTractor, PiTractorLight } from 'react-icons/pi';
 import { LiaDrumSteelpanSolid } from 'react-icons/lia';
-import { MdOutlineEmojiTransportation, MdOutlineStar } from 'react-icons/md';
+import { MdMail, MdOutlineEmojiTransportation, MdOutlineStar } from 'react-icons/md';
 import { GiCargoShip, GiChemicalDrop, GiDeliveryDrone, GiGlassShot, GiNewspaper, GiNuclearWaste } from 'react-icons/gi';
 import { RiCustomerServiceLine } from 'react-icons/ri';
 import { BiLabel } from 'react-icons/bi';
-import { IoDocumentsOutline, IoPlay } from 'react-icons/io5';
+import { IoDocumentsOutline, IoMail, IoPlay } from 'react-icons/io5';
 import Footer from '../Components/Footer/Footer';
 import { Typewriter } from 'react-simple-typewriter';
 import { useNavigate } from 'react-router-dom';
@@ -19,7 +19,7 @@ import { ImInsertTemplate } from 'react-icons/im';
 import { TbBuildingFactory, TbPerfume } from 'react-icons/tb';
 import { FaArrowRightLong, FaArrowUpLong, FaTruckFast, FaTruckPlane } from 'react-icons/fa6';
 import { HiBuildingOffice2 } from 'react-icons/hi2';
-import { FaAngleDoubleUp, FaArrowRight, FaCheck } from 'react-icons/fa';
+import { FaAngleDoubleUp, FaArrowRight, FaCheck, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 import { IoMdCall } from 'react-icons/io';
 import { GoDotFill } from 'react-icons/go';
 import { TiPin } from 'react-icons/ti';
@@ -128,20 +128,16 @@ function Home() {
     }, [currentIndex]);
 
 
-    const servicesRef = useRef(null);
-    const productsRef = useRef(null);
+    const aboutuss = useRef(null);
+    const contactusss = useRef(null);
     const contactRef = useRef(null);
 
     const handleScrollToSection = (section) => {
-        if (section === 'services') {
-            servicesRef.current?.scrollIntoView({ behavior: 'smooth' });
+        if (section === 'aboutus') {
+            aboutuss.current?.scrollIntoView({ behavior: 'smooth' });
             TogglerNew();
-        } else if (section === 'portfolio') {
-            productsRef.current?.scrollIntoView({ behavior: 'smooth' });
-            TogglerNew();
-        }
-        else if (section === 'contact') {
-            contactRef.current?.scrollIntoView({ behavior: 'smooth' });
+        } else if (section === 'contactus') {
+            contactusss.current?.scrollIntoView({ behavior: 'smooth' });
             TogglerNew();
         }
     };
@@ -164,6 +160,10 @@ function Home() {
 
     return (
         <div className='col-md-12 overflow_stop '>
+            <div className='col-md-12 webb_red_bg py-1 universal_padding_allp text-end'>
+                <span><a className='text_dec_stop' href="tel:966537089515" ><b><FaPhoneAlt /> +966537089515</b></a></span>
+                <span className='ps-5'><a className='text_dec_stop' href="mailto:filtercity@outlook.sa" ><b><MdMail /> filtercity@outlook.sa</b></a></span>
+            </div>
             <Header onNavigate={handleScrollToSection} TogglerNew={TogglerNew} toggler={toggler} />
             {showButton && (
                 <div className='col-md-12 button_srcondary_position text-end px-3'>
@@ -175,13 +175,24 @@ function Home() {
             }
 
             <div className='col-md-12 button_srcondary_position111 text-end px-3'>
-                <a className='text_dec_stop' >
+                <a className='text_dec_stop' href="https://wa.me/966537089515" >
+
+                    <button className='btn btn-secondary backtotopbutton' onClick={scrollToTop}>
+                        <FaWhatsapp />
+                    </button>
+                </a>
+            </div>
+
+            <div className='col-md-12 button_srcondary_position112 text-end px-3'>
+                <a className='text_dec_stop' href="tel:966537089515" >
 
                     <button className='btn btn-secondary backtotopbutton' onClick={scrollToTop}>
                         <IoMdCall />
                     </button>
                 </a>
             </div>
+
+
             {/* Section 1 ------------------------------------------------------- */}
             <div className='col-md-12 '>
                 {/* <div className='display_pc' >
@@ -216,13 +227,59 @@ function Home() {
                     </div>
                 </div> */}
 
-                <div className='col-md-12 background_for_image_h universal_padding_allp pt-5' >
+                <div className='col-md-12 display_pc'>
+
+                    <div className='col-md-12 background_for_image_h ' >
+
+                        <div className='display_pc' >
+                            <video loop autoPlay muted className="vedioPlayer">
+                                <source
+                                    src="/video/main.mp4"
+                                    type="video/mp4"
+                                />
+                            </video>
+                        </div>
+                        <div className='col-md-12 image_adjust_on_vide'>
+                            <div className='row  '>
+                                <div className='col-md-6 '>
+                                    <div className='col-md-12 text_for_head1' >
+                                        <p className='m-0 p-0 industry_text_pp'>Filter City </p>
+                                        <p className='m-0 p-0 industry_text_pp1'>City Of Filteration </p>
+                                        <p className='m-0 p-0 industry_text_pp2'>Where Power Meets Purity </p>
+                                        <p className='m-0 p-0 color_of_text_sub1 pt-3'>Filter City is a leading supplier specializing in all types of heavy machinery filters, providing high-quality solutions for industries such as construction, mining, agriculture, and transportation. With an extensive range of filters for machinery including excavators, bulldozers, cranes, and more, we ensure optimal performance and durability for your equipment.</p>
+                                    </div>
+                                </div>
+                                <div className='col-md-6 m-auto text-center'>
+                                    <div className='row pb-md-0 pb-5'>
+                                        <div className='col-md-6'></div>
+                                        <div className='col-md-6 pt-5'>
+                                            <div className='col-md-12 bg-white py-5 mt-5 px-5'>
+                                                <div className='col-md-12'>
+                                                    <PiFactoryLight className='factory_icon' />
+                                                    <p className='m-0 p-0 mission_text'>Our Mission</p>
+                                                    <p className='m-0 p-0 pt-2 utlizing_font'>Where Power Meets Purity</p>
+                                                    <p className='m-0 p-0 pt-2 explore_text'>Explore <span className='ms-1'><FaArrowRightLong /></span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div className='col-md-12 background_for_image_h universal_padding_allp pt-5 display_mobile' >
+
                     <div className='row pt-md-5 '>
                         <div className='col-md-6 '>
                             <div className='col-md-12 text_for_head1' >
                                 <p className='m-0 p-0 industry_text_pp'>Filter City </p>
                                 <p className='m-0 p-0 color_of_text_sub1 pt-3'>Filter City is a leading supplier specializing in all types of heavy machinery filters, providing high-quality solutions for industries such as construction, mining, agriculture, and transportation. With an extensive range of filters for machinery including excavators, bulldozers, cranes, and more, we ensure optimal performance and durability for your equipment.</p>
-                                <div className='row pt-5'>
+                                {/* <div className='row pt-5'>
                                     <div className='col-md-6 '>
                                         <span className='btn btn-light btn-lg button_cutome1 px-md-5 mt-3'>
                                             <b>Shop Now</b>
@@ -231,7 +288,7 @@ function Home() {
                                     <div className='col-md-6 '>
                                         <span></span>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className='col-md-6 m-auto text-center'>
@@ -332,7 +389,19 @@ function Home() {
                                 <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
                             </div>
                         </div>
-
+                        <div className='col-md border_right_11 py-4 '>
+                            <div className='pe-2 ps-3 '>
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/filter22.jpeg' />
+                                {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/5.jpg' /> */}
+                            </div>
+                            <div className='col-md-12 ps-4 py-2'>
+                                <p className='m-0 p-0 env_text'>Oil Baths</p>
+                                <p className='m-0 p-0 env_text_sub pt-3'>
+                                    Our oil baths are designed to provide superior filtration and lubrication, ensuring that your machinery operates at peak performance while minimizing wear and tear. They are essential for maintaining the longevity of your equipment, especially in harsh working conditions.
+                                </p>
+                                <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -378,13 +447,10 @@ function Home() {
                             <p className='m-0 p-0 env_text_sub'>
                                 At Filter City, we understand the importance of keeping your machinery running efficiently, which is why we offer only the highest quality filters that ensure optimal performance and longevity. Our products are designed to protect your equipment from contaminants, reduce maintenance costs, and minimize downtime, allowing you to focus on what matters most—maximizing productivity. With a customer-centric approach, we are committed to providing exceptional service, fast delivery, and reliable filtration solutions to meet all your machinery needs.
                             </p>
-                            <p className='m-0 p-0 env_text_sub_ceo pt-4'>
-                                CEO & FOUNDER
-                            </p>
                         </div>
                     </div>
-                    <div className='col-md-5 display_pc px-5'>
-                        <div className='col-md-12 position_relative_bb'>
+                    <div className='col-md-5 display_pc px-5' >
+                        {/* <div className='col-md-12 position_relative_bb'>
                             <div className='col-md-12 position_box1 '>
                                 <div className='row'>
                                     <div className='col-md-1'></div>
@@ -408,7 +474,50 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+                        <Carousel
+
+                            responsive={responsive}
+                            draggable={true}
+                            swipeable={true}
+                            autoPlay={true}             // <-- Enable auto swipe
+                            autoPlaySpeed={4000}        // <-- Speed of auto swipe
+                            infinite={true}             // <-- Loop the carousel
+                            customTransition="all 1s"   // <-- Smooth transition
+                            transitionDuration={2000}
+
+                        >
+                            <div>
+                                <img className='img-fluid w-100' src='/images/slides/slides/1.png' />
+                            </div>
+                            <div>
+                                <img className='img-fluid w-100' src='/images/slides/slides/2.png' />
+                            </div>
+                            <div>
+                                <img className='img-fluid w-100' src='/images/slides/slides/3.png' />
+                            </div>
+                            <div>
+                                <img className='img-fluid w-100' src='/images/slides/slides/4.png' />
+                            </div>
+                            <div>
+                                <img className='img-fluid w-100' src='/images/slides/slides/5.png' />
+                            </div>
+                            <div>
+                                <img className='img-fluid w-100' src='/images/slides/slides/6.png' />
+                            </div>
+                            <div>
+                                <img className='img-fluid w-100' src='/images/slides/slides/7.png' />
+                            </div>
+                            <div>
+                                <img className='img-fluid w-100' src='/images/slides/slides/8.png' />
+                            </div>
+                            <div>
+                                <img className='img-fluid w-100' src='/images/slides/slides/9.png' />
+                            </div>
+                            <div>
+                                <img className='img-fluid w-100' src='/images/slides/slides/10.png' />
+                            </div>
+                        </Carousel>
                     </div>
                     <div className='col-md-3'>
                         <div className='row mt-3'>
@@ -533,7 +642,7 @@ function Home() {
             </div>
 
             {/* Section 6 --------------------------------------- */}
-            <div className='col-md-12 '>
+            <div className='col-md-12 ' ref={aboutuss}>
                 <div className='row'>
                     <div className='col-md-6 background_orange_11 padding_top_bottom_left_1 py-5'>
                         <div className='col-md-12 pe-md-5 py-5'>
@@ -591,15 +700,15 @@ function Home() {
 
 
             {/* Section 7 --------------------------------------- */}
-            <div className='col-md-12 padding_top_bottom_left_right_only background_s3 py-5'>
+            <div className='col-md-12 padding_top_bottom_left_right_only background_s3 py-3'>
                 <div className='py-5'>
-                    <div className='col-md-12 text-center'>
+                    {/* <div className='col-md-12 text-center'>
                         <p className='m-0 p-0 little_orange_text'>Recent Works</p>
                         <p className='m-0 p-0 font_big_heading_sub'>
                             Featured Projects
                         </p>
                         <img className='img-fluid width_of_line' src='/imagess/line.png' />
-                    </div>
+                    </div> */}
                 </div>
                 <div className='col-md-12'>
                     <div className='row'>
@@ -751,10 +860,10 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-md-8 py-5 px-md-5 bg-white'>
+                        <div className='col-md-8 py-5 px-md-5 bg-white' ref={contactusss}>
                             <div className='col-md-12'>
                                 <p className='m-0 p-0 font_big_heading_sub_new '>
-                                    Request A Quote
+                                    Contact Us
                                 </p>
                                 <p className='m-0 p-0 env_text_sub pt-1 mt-2'>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
@@ -793,7 +902,7 @@ function Home() {
                 </div>
                 <div className='col-md-12 text-center'>
                     <p className='m-0 p-0 env_text_sub pt-4 mt-2'>
-                        We will get back to you within 24 hours, or call us <span className='env_text_sub_orange'>+7786 65656 98989</span>
+                        We will get back to you within 24 hours, or call us <span className='env_text_sub_orange'>+966 53 708 9515</span>
                     </p>
                 </div>
 
@@ -801,7 +910,7 @@ function Home() {
 
 
             {/* Section 10 --------------------------------------- */}
-            <div className='col-md-12 padding_top_bottom_left_right_only pb-md-5 pb-4 mt-md-0 mt-5'>
+            {/* <div className='col-md-12 padding_top_bottom_left_right_only pb-md-5 pb-4 mt-md-0 mt-5'>
                 <div className='col-md-12'>
                     <div className='row'>
                         <div className='col-md-6'>
@@ -862,7 +971,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className='col-md-12 pb-5 pt-4'>
                 <hr />
             </div>
