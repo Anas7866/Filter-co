@@ -23,12 +23,20 @@ import { FaAngleDoubleUp, FaArrowRight, FaCheck, FaPhoneAlt, FaWhatsapp } from '
 import { IoMdCall } from 'react-icons/io';
 import { GoDotFill } from 'react-icons/go';
 import { TiPin } from 'react-icons/ti';
+import Fade from 'react-bootstrap/Fade';
+import { Collapse } from 'react-bootstrap';
 
 
 function Home() {
     const [activetabs, setActivetabs] = useState(0)
     const [toggler, setToggler] = useState(false)
     const Navigate = useNavigate();
+    const [open1, setOpen1] = useState(false);
+    const [open2, setOpen2] = useState(false);
+    const [open3, setOpen3] = useState(false);
+    const [open4, setOpen4] = useState(false);
+    const [open5, setOpen5] = useState(false);
+    const [open6, setOpen6] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
     const responsive = {
         superLargeDesktop: {
@@ -234,7 +242,7 @@ function Home() {
                         <div className='display_pc' >
                             <video loop autoPlay muted className="vedioPlayer">
                                 <source
-                                    src="/video/main.mp4"
+                                    src="/video/newmain.mp4"
                                     type="video/mp4"
                                 />
                             </video>
@@ -252,7 +260,7 @@ function Home() {
                                 <div className='col-md-6 m-auto text-center'>
                                     <div className='row pb-md-0 pb-5'>
                                         <div className='col-md-6'></div>
-                                        <div className='col-md-6 pt-5'>
+                                        {/* <div className='col-md-6 pt-5'>
                                             <div className='col-md-12 bg-white py-5 mt-5 px-5'>
                                                 <div className='col-md-12'>
                                                     <PiFactoryLight className='factory_icon' />
@@ -261,7 +269,7 @@ function Home() {
                                                     <p className='m-0 p-0 pt-2 explore_text'>Explore <span className='ms-1'><FaArrowRightLong /></span></p>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
 
@@ -320,34 +328,49 @@ function Home() {
                     <div className='row'>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='col-md-12 ps-3 py-2'>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/filter66.jpeg' />
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/1.jpg' />
                                 <p className='m-0 p-0 env_text mt-3'>Air Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our air filters are designed to maximize airflow while effectively trapping dust, dirt, and other contaminants. By ensuring that only clean air enters your machinery, these filters play a vital role in boosting engine performance and extending the lifespan of your equipment..
+                                    Our air filters are designed to maximize airflow while effectively trapping dust, dirt, and other ...
+                                    <Collapse in={open1}>
+                                        <div id="example-collapse-text" className="env_text_sub">
+                                            contaminants  By ensuring that only clean air enters your machinery, these filters play a vital role in boosting engine performance and extending the lifespan of your equipment..
+                                        </div>
+                                    </Collapse>
                                 </p>
-                                <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
+                                <p className='m-0 pt-2 arroe_colorcc' onClick={() => setOpen1(!open1)}><FaArrowRight /></p>
                             </div>
                         </div>
                         <div className='col-md border_right_11 py-4 '>
-                            <img className='img-fluid w-100 image_hei_ww_adj' src='/images/filter11.jpeg' />
+                            <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/4.jpg' />
                             <div className='col-md-12 ps-3 py-2'>
                                 <p className='m-0 p-0 env_text mt-3'>Oil Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our oil filters are engineered to provide superior filtration for your machinery, effectively capturing contaminants and ensuring that only clean oil circulates through the engine. This critical component not only protects your equipment from wear and tear but also enhances overall performance and longevity.
+                                    Our oil filters are engineered to provide superior filtration for your machinery, effectively capturing...
                                 </p>
-                                <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
+                                <Collapse in={open2}>
+                                    <div id="example-collapse-text" className="env_text_sub">
+                                        contaminants and ensuring that only clean oil circulates through the engine. This critical component not only protects your equipment from wear and tear but also enhances overall performance and longevity.
+                                    </div>
+                                </Collapse>
+                                <p className='m-0 pt-2 arroe_colorcc' onClick={() => setOpen2(!open2)}><FaArrowRight /></p>
                             </div>
                         </div>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2'>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/filter55.jpeg' />
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/2.jpg' />
                             </div>
                             <div className='col-md-12 ps-3 py-2 '>
                                 <p className='m-0 p-0 env_text mt-3'>Fuel Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our fuel filters are meticulously designed to ensure the purity of fuel entering your engine. By effectively trapping impurities and contaminants, these filters enhance fuel efficiency and performance, ultimately contributing to the longevity of your equipment.
+                                    Our fuel filters are meticulously designed to ensure the purity of fuel entering your engine...
                                 </p>
-                                <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
+                                <Collapse in={open3}>
+                                    <div id="example-collapse-text" className="env_text_sub">
+                                        By effectively trapping impurities and contaminants, these filters enhance fuel efficiency and performance, ultimately contributing to the longevity of your equipment.
+                                    </div>
+                                </Collapse>
+                                <p className='m-0 pt-2 arroe_colorcc' onClick={() => setOpen3(!open3)}><FaArrowRight /></p>
                             </div>
                         </div>
                         {/* <div className='col-md-3 border_right_simple  py-4 '>
@@ -366,40 +389,55 @@ function Home() {
                     <div className='row'>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2 ps-3'>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/hyd.jpeg' />
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/6.jpg' />
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Hydraulic Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our hydraulic filters are expertly designed to ensure the cleanliness and efficiency of hydraulic systems. By effectively removing contaminants from hydraulic fluids, these filters enhance equipment performance and reliability, minimizing the risk of costly breakdowns.
+                                    Our hydraulic filters are expertly designed to ensure the cleanliness and efficiency of hydraulic...
                                 </p>
-                                <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
+                                <Collapse in={open4}>
+                                    <div id="example-collapse-text" className="env_text_sub">
+                                        systems. By effectively removing contaminants from hydraulic fluids, these filters enhance equipment performance and reliability, minimizing the risk of costly breakdowns.
+                                    </div>
+                                </Collapse>
+                                <p className='m-0 pt-2 arroe_colorcc ' onClick={() => setOpen4(!open4)}><FaArrowRight /></p>
                             </div>
                         </div>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2 ps-3 '>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/filter22.jpeg' />
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/5.jpg' />
                                 {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/5.jpg' /> */}
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Separators</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our separators are engineered to effectively separate contaminants from fluids, ensuring the purity and performance of your machinery. These high-efficiency devices play a crucial role in prolonging the life of your equipment by maintaining optimal operational conditions.
+                                    Our separators are engineered to effectively separate contaminants from fluids, ensuring...
                                 </p>
-                                <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
+                                <Collapse in={open5}>
+                                    <div id="example-collapse-text" className="env_text_sub">
+                                        the purity and performance of your machinery. These high-efficiency devices play a crucial role in prolonging the life of your equipment by maintaining optimal operational conditions.
+                                    </div>
+                                </Collapse>
+                                <p className='m-0 pt-2 arroe_colorcc' onClick={() => setOpen5(!open5)}><FaArrowRight /></p>
                             </div>
                         </div>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2 ps-3 '>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/filter22.jpeg' />
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/3.jpg' />
                                 {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/5.jpg' /> */}
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Oil Baths</p>
                                 <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our oil baths are designed to provide superior filtration and lubrication, ensuring that your machinery operates at peak performance while minimizing wear and tear. They are essential for maintaining the longevity of your equipment, especially in harsh working conditions.
+                                    Our oil baths are designed to provide superior filtration and lubrication, ensuring that your...
                                 </p>
-                                <p className='m-0 pt-2 arroe_colorcc'><FaArrowRight /></p>
+                                <Collapse in={open6}>
+                                    <div id="example-collapse-text" className="env_text_sub">
+                                        machinery operates at peak performance while minimizing wear and tear. They are essential for maintaining the longevity of your equipment, especially in harsh working conditions.
+                                    </div>
+                                </Collapse>
+                                <p className='m-0 pt-2 arroe_colorcc' onClick={() => setOpen6(!open6)}><FaArrowRight /></p>
                             </div>
                         </div>
                     </div>
@@ -449,7 +487,7 @@ function Home() {
                             </p>
                         </div>
                     </div>
-                    <div className='col-md-5 display_pc px-5' >
+                    <div className='col-md-5 display_pc px-5 m-auto' >
                         {/* <div className='col-md-12 position_relative_bb'>
                             <div className='col-md-12 position_box1 '>
                                 <div className='row'>
@@ -710,45 +748,29 @@ function Home() {
                         <img className='img-fluid width_of_line' src='/imagess/line.png' />
                     </div> */}
                 </div>
-                <div className='col-md-12'>
+                <div className='col-md-12 mb-5 pb-4'>
                     <div className='row'>
-                        <div className='col-md-4 p-4'>
+                        <div className='col-md-3 p-4'>
                             <div className='col-md-12 bg-white'>
-                                <div className='col-md-12 img_gray'></div>
-                                <div className='px-3 py-3'>
-                                    <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
-                                    <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
-                                    <p className='m-0 p-0 env_text_sub mt-2'>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    </p>
-                                    <p className='m-0 pt-3 arroe_colorcc'><span className='readmore_text'>Explore Case Study</span> <FaArrowRight /></p>
-                                </div>
+                                <img className='img-fluid' src='/images/w1.jpg' />
                             </div>
                         </div>
-                        <div className='col-md-4 p-4'>
+                        <div className='col-md-3 p-4'>
                             <div className='col-md-12 bg-white'>
-                                <div className='col-md-12 img_gray1'></div>
-                                <div className='px-3 py-3'>
-                                    <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
-                                    <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
-                                    <p className='m-0 p-0 env_text_sub mt-2'>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    </p>
-                                    <p className='m-0 pt-3 arroe_colorcc'><span className='readmore_text'>Explore Case Study</span> <FaArrowRight /></p>
-                                </div>
+                                <img className='img-fluid' src='/images/w2.jpg' />
+
                             </div>
                         </div>
-                        <div className='col-md-4 p-4'>
+                        <div className='col-md-3 p-4'>
                             <div className='col-md-12 bg-white'>
-                                <div className='col-md-12 img_gray2'></div>
-                                <div className='px-3 py-3'>
-                                    <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
-                                    <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
-                                    <p className='m-0 p-0 env_text_sub mt-2'>
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    </p>
-                                    <p className='m-0 pt-3 arroe_colorcc'><span className='readmore_text'>Explore Case Study</span> <FaArrowRight /></p>
-                                </div>
+                                <img className='img-fluid' src='/images/w3.jpg' />
+
+                            </div>
+                        </div>
+                        <div className='col-md-3 p-4'>
+                            <div className='col-md-12 bg-white'>
+                                <img className='img-fluid' src='/images/w4.jpg' />
+
                             </div>
                         </div>
                     </div>
@@ -848,16 +870,16 @@ function Home() {
                         <div className='col-md-4 px-5 background_orange_11 py-5 '>
                             <div className='position_relative_bb_new'>
                                 <p className='m-0 p-0 font_big_heading_sub_new text-light'>
-                                    A Leading Industrial & Manufacturing Company, Serving Since 1997.
+                                    A Leading Industrial & Manufacturing Company, Since 1992.
                                 </p>
                                 <p className='m-0 p-0 env_text_sub text-light pt-2 mt-2'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                   FilterCity Trading company specializes in supplying high-quality heavy machinery filters and spare parts. With over two decades of experience, we've become a trusted name in the filtertion industrial sector. Our commitment to quality, reliability and customer satisfaction has helped us servce a diverse range of industries efficiently.
                                 </p>
-                                <div className='col-md-12 position_bottom_1 '>
+                                {/* <div className='col-md-12 position_bottom_1 '>
                                     <span className='btn btn-light btn-lg  button_cutome_black px-md-5 mt-3 w-100'>
                                         <b>Download 2025 Brochure</b>
                                     </span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className='col-md-8 py-5 px-md-5 bg-white' ref={contactusss}>
@@ -866,7 +888,7 @@ function Home() {
                                     Contact Us
                                 </p>
                                 <p className='m-0 p-0 env_text_sub pt-1 mt-2'>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    Looking for durable filters or reliable spare parts for your machinery? Get in touchh with us today.
                                 </p>
                                 <div className='col-md-12 mt-md-4 mt-4 pt-md-3 pt-0'>
                                     <div className='row'>
@@ -881,7 +903,7 @@ function Home() {
                                         <div className='col-md-6'>
                                             <input className='form-control form-control-lg fomr_input_dd' placeholder='Phone' />
                                         </div>
-                                        <div className='col-md-6 mt-md-4 mt-4'>
+                                        <div className='col-md-6 mt-md-0 mt-4'>
                                             <input className='form-control form-control-lg fomr_input_dd' placeholder='Industry' />
                                         </div>
                                     </div>
