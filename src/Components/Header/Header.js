@@ -82,11 +82,11 @@ const Header = ({ onNavigate, TogglerNew, toggler }) => {
                             </div>
                             <div className='col-md-10  text-end'>
                                 <div className={`d-flex justify-content-end py-4 `} >
-                                    <span className='pt-1' ><Link className='text_dec_stop_Text borderbottom_activee' to="/">Home</Link></span>
-                                    <span className='ps-5 pt-1' ><Link className='text_dec_stop_Text ' to="/">Products</Link></span>
-                                    <span className='ps-5 pt-1' onClick={() => onNavigate('aboutus')}><Link className='text_dec_stop_Text ' to="/">About Us</Link></span>
+                                    <span className='pt-1' ><Link className='text_dec_stop_Text borderbottom_activee' >Home</Link></span>
+                                    <span className='ps-5 pt-1' onClick={() => { onNavigate('products') }} ><Link className='text_dec_stop_Text ' >Products</Link></span>
+                                    <span className='ps-5 pt-1' onClick={() => onNavigate('aboutus')}><Link className='text_dec_stop_Text ' >About Us</Link></span>
 
-                                    <span className='ps-5 pt-1' ><Link className='text_dec_stop_Text' to="/">Resources</Link></span>
+                                    <span className='ps-5 pt-1' ><Link className='text_dec_stop_Text' >Resources</Link></span>
 
 
                                     {/* <span className='ps-5' onClick={() => onNavigate('portfolio')}>Portofolio</span> */}
@@ -122,7 +122,7 @@ const Header = ({ onNavigate, TogglerNew, toggler }) => {
                         <div className='col-md-12 px-4'>
                             <h5 className='py-3' onClick={TogglerNew}><Link className='text_dec_stop' to="/">Home</Link></h5>
                             <h5 className='py-3' onClick={() => onNavigate('aboutus')}><Link className='text_dec_stop' to="/">About Us</Link></h5>
-                            <h5 className='py-3'  onClick={TogglerNew}><Link className='text_dec_stop' to="/">Products</Link></h5>
+                            <h5 className='py-3' onClick={() => { TogglerNew(); onNavigate('products') }}><Link className='text_dec_stop' to="/">Products</Link></h5>
                             <h5 className='py-3' onClick={TogglerNew}><Link className='text_dec_stop' to="/">Resources</Link></h5>
                             <h5 className='py-3' ><Link className='text_dec_stop' to="/">Services</Link></h5>
                             <h5 className='py-3' onClick={() => onNavigate('contactus')} ><Link className='text_dec_stop' to="/">Contact Us</Link></h5>

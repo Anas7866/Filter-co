@@ -138,7 +138,7 @@ function Home() {
 
     const aboutuss = useRef(null);
     const contactusss = useRef(null);
-    const contactRef = useRef(null);
+    const productsref = useRef(null);
 
     const handleScrollToSection = (section) => {
         if (section === 'aboutus') {
@@ -146,6 +146,9 @@ function Home() {
             TogglerNew();
         } else if (section === 'contactus') {
             contactusss.current?.scrollIntoView({ behavior: 'smooth' });
+            TogglerNew();
+        } else if (section === 'products') {
+            productsref.current?.scrollIntoView({ behavior: 'smooth' });
             TogglerNew();
         }
     };
@@ -330,8 +333,8 @@ function Home() {
                             <div className='col-md-12 ps-3 py-2'>
                                 <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/1.jpg' />
                                 <p className='m-0 p-0 env_text mt-3'>Air Filters</p>
-                                <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our air filters are designed to maximize airflow while effectively trapping dust, dirt, and other ...
+                                <p className='m-0 p-0 env_text_sub pt-3' onClick={() => setOpen1(!open1)}>
+                                    Our air filters are designed to maximize airflow while effectively trapping dust, dirt, and other .
                                     <Collapse in={open1}>
                                         <div id="example-collapse-text" className="env_text_sub">
                                             contaminants  By ensuring that only clean air enters your machinery, these filters play a vital role in boosting engine performance and extending the lifespan of your equipment..
@@ -345,8 +348,8 @@ function Home() {
                             <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/4.jpg' />
                             <div className='col-md-12 ps-3 py-2'>
                                 <p className='m-0 p-0 env_text mt-3'>Oil Filters</p>
-                                <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our oil filters are engineered to provide superior filtration for your machinery, effectively capturing...
+                                <p className='m-0 p-0 env_text_sub pt-3' onClick={() => setOpen2(!open2)}>
+                                    Our oil filters are engineered to provide superior filtration for your machinery, effectively capturing.
                                 </p>
                                 <Collapse in={open2}>
                                     <div id="example-collapse-text" className="env_text_sub">
@@ -362,8 +365,8 @@ function Home() {
                             </div>
                             <div className='col-md-12 ps-3 py-2 '>
                                 <p className='m-0 p-0 env_text mt-3'>Fuel Filters</p>
-                                <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our fuel filters are meticulously designed to ensure the purity of fuel entering your engine...
+                                <p className='m-0 p-0 env_text_sub pt-3' onClick={() => setOpen3(!open3)}>
+                                    Our fuel filters are meticulously designed to ensure the purity of fuel entering your engine.
                                 </p>
                                 <Collapse in={open3}>
                                     <div id="example-collapse-text" className="env_text_sub">
@@ -393,8 +396,8 @@ function Home() {
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Hydraulic Filters</p>
-                                <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our hydraulic filters are expertly designed to ensure the cleanliness and efficiency of hydraulic...
+                                <p className='m-0 p-0 env_text_sub pt-3' onClick={() => setOpen4(!open4)}>
+                                    Our hydraulic filters are expertly designed to ensure the cleanliness and efficiency of hydraulic.
                                 </p>
                                 <Collapse in={open4}>
                                     <div id="example-collapse-text" className="env_text_sub">
@@ -411,8 +414,8 @@ function Home() {
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Separators</p>
-                                <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our separators are engineered to effectively separate contaminants from fluids, ensuring...
+                                <p className='m-0 p-0 env_text_sub pt-3' onClick={() => setOpen5(!open5)}>
+                                    Our separators are engineered to effectively separate contaminants from fluids, ensuring.
                                 </p>
                                 <Collapse in={open5}>
                                     <div id="example-collapse-text" className="env_text_sub">
@@ -429,8 +432,8 @@ function Home() {
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Oil Baths</p>
-                                <p className='m-0 p-0 env_text_sub pt-3'>
-                                    Our oil baths are designed to provide superior filtration and lubrication, ensuring that your...
+                                <p className='m-0 p-0 env_text_sub pt-3' onClick={() => setOpen6(!open6)}>
+                                    Our oil baths are designed to provide superior filtration and lubrication, ensuring that your.
                                 </p>
                                 <Collapse in={open6}>
                                     <div id="example-collapse-text" className="env_text_sub">
@@ -447,7 +450,7 @@ function Home() {
 
 
             {/* Section 3 --------------------------------------- */}
-            <div className='col-md-12 padding_top_bottom_left_right_only padding_start_for_special_heading'>
+            <div className='col-md-12 padding_top_bottom_left_right_only padding_start_for_special_heading' ref={productsref}>
                 <p className='m-0 p-0 little_orange_text'>Manufacture A Varuety Of Hight Quality Products</p>
                 <p className='m-0 p-0 font_big_heading'>
                     Providing A Variety of Hight <br />Quality Filters
@@ -790,9 +793,9 @@ function Home() {
 
                         </div>
                         <div className='col-md-6'>
-                            <p className='m-0 p-0 env_text_sub text-light pt-4 mt-2'>
+                            {/* <p className='m-0 p-0 env_text_sub text-light pt-4 mt-2'>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                 </div>
@@ -873,7 +876,7 @@ function Home() {
                                     A Leading Industrial & Manufacturing Company, Since 1992.
                                 </p>
                                 <p className='m-0 p-0 env_text_sub text-light pt-2 mt-2'>
-                                   FilterCity Trading company specializes in supplying high-quality heavy machinery filters and spare parts. With over two decades of experience, we've become a trusted name in the filtertion industrial sector. Our commitment to quality, reliability and customer satisfaction has helped us servce a diverse range of industries efficiently.
+                                    FilterCity Trading company specializes in supplying high-quality heavy machinery filters and spare parts. With over two decades of experience, we've become a trusted name in the filtertion industrial sector. Our commitment to quality, reliability and customer satisfaction has helped us servce a diverse range of industries efficiently.
                                 </p>
                                 {/* <div className='col-md-12 position_bottom_1 '>
                                     <span className='btn btn-light btn-lg  button_cutome_black px-md-5 mt-3 w-100'>
@@ -1048,7 +1051,7 @@ function Home() {
 
 
             {/* Section 11 --------------------------------------- */}
-            <div className='col-md-12 '>
+            {/* <div className='col-md-12 '>
                 <div className='row'>
                     <div className='col-md-8 background_lg'>
                         <div className='row'>
@@ -1071,10 +1074,10 @@ function Home() {
                     </div>
                     <div className='col-md-4 background_g display_pc'></div>
                 </div>
-            </div>
+            </div> */}
 
             {/* Section 12 --------------------------------------- */}
-            <div className='col-md-12 padding_top_bottom_left_right_only background_s3 py-5'>
+            <div className='col-md-12 padding_top_bottom_left_right_only background_s3 pb-5 pt-4'>
                 <div className='py-5'>
                     <div className='col-md-12 text-center'>
                         <p className='m-0 p-0 little_orange_text'>Insight and Trends</p>

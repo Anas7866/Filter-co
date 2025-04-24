@@ -246,7 +246,6 @@
 }
 
 .border_of_cards:hover {
-    /* border: 1px solid #EC1A24; */
     -webkit-box-shadow: -3px 7px 33px -4px #e91e2166;
     -moz-box-shadow: -3px 7px 33px -4px #e91e2166;
     box-shadow: -3px 7px 33px -4px #e91e2166;
@@ -464,22 +463,20 @@
     transition: 0.5s ease-in-out;
 }
 
-.border_right_11:hover {
+/* .border_right_11:hover {
     border-right: 0px solid #EBEBEB;
     background-color: #EC1A24;
     color: white !important;
     transition: 0.5s ease-in-out;
     -ms-transform: scale(1.1);
-    /* IE 9 */
     -webkit-transform: scale(1.1);
-    /* Safari 3-8 */
     transform: scale(1.1);
-}
+} */
 
 .border_right_11:hover .env_text,
 .border_right_11:hover .env_text_sub,
 .border_right_11:hover .arroe_colorcc {
-    color: white;
+    /* color: white; */
     /* Change the color of .env_text and .env_sub_text to red */
 }
 
