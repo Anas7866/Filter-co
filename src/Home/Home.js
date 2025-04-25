@@ -171,9 +171,13 @@ function Home() {
 
     return (
         <div className='col-md-12 overflow_stop '>
-            <div className='col-md-12 webb_red_bg py-1 universal_padding_allp text-end'>
+            <div className='col-md-12 webb_red_bg py-1 universal_padding_allp text-end display_pc'>
                 <span><a className='text_dec_stop' href="tel:966537089515" ><b><FaPhoneAlt /> +966537089515</b></a></span>
                 <span className='ps-5'><a className='text_dec_stop' href="mailto:filtercity@outlook.sa" ><b><MdMail /> filtercity@outlook.sa</b></a></span>
+            </div>
+            <div className='col-md-12 webb_red_bg py-1 text-center display_mobile'>
+                <span><a className='text_dec_stop' href="tel:966537089515" ><b><FaPhoneAlt /> +966537089515</b></a></span>
+                <span className='ps-3'><a className='text_dec_stop' href="mailto:filtercity@outlook.sa" ><b><MdMail /> filtercity@outlook.sa</b></a></span>
             </div>
             <Header onNavigate={handleScrollToSection} TogglerNew={TogglerNew} toggler={toggler} />
             {showButton && (
@@ -786,16 +790,16 @@ function Home() {
                 <div className='col-md-12 mt-5'>
                     <div className='row'>
                         <div className='col-md-6'>
-                            <p className='m-0 p-0 little_orange_text '>Manufacture A Varuety Of Hight Quality Products</p>
+                            <p className='m-0 p-0 little_orange_text '>Manufacture supplying a wide range of hight-quality filters and spare parts. </p>
                             <p className='m-0 p-0 font_big_heading_sub text-light'>
-                                A Leading Industrial & Manufacturing Company, Serving Since 1997.
+                                Filter City Trading Company - A Trusted Name in Heavy Machinery Parts Since 1992.
                             </p>
 
                         </div>
                         <div className='col-md-6'>
-                            {/* <p className='m-0 p-0 env_text_sub text-light pt-4 mt-2'>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </p> */}
+                            <p className='m-0 p-0 env_text_sub text-light pt-4 mt-2'>
+                                At Filter City Trading Company. we specialize in providing top-grade filters and spare parts for heavy machinery accross varios industries. With decades of experience, we've build a reputation for reliability, quality and expert service.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -810,7 +814,7 @@ function Home() {
                                     <div className='col-md-11 col-11'>
                                         <p className='m-0 p-0 font_listing_qq text-light'>Quality Control System</p>
                                         <p className='m-0 p-0 env_text_sub pt-2'>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Every product undergoes strict quality checks to ensure peak performance and durability under demanding conditions.
                                         </p>
                                     </div>
                                 </div>
@@ -825,7 +829,7 @@ function Home() {
                                     <div className='col-md-11 col-11'>
                                         <p className='m-0 p-0 font_listing_qq text-light'>Highly Professional Staff</p>
                                         <p className='m-0 p-0 env_text_sub pt-2'>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Our knowledgeable team is always ready to assist with the expert guidance and support tailored to your machinery needs.
                                         </p>
                                     </div>
                                 </div>
@@ -840,7 +844,7 @@ function Home() {
                                     <div className='col-md-11 col-11'>
                                         <p className='m-0 p-0 font_listing_qq text-light'>100% Satisfaction Guarantee</p>
                                         <p className='m-0 p-0 env_text_sub pt-2'>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            We stand behind every part we supply - your satisfaction is our priority.
                                         </p>
                                     </div>
                                 </div>
@@ -855,7 +859,7 @@ function Home() {
                                     <div className='col-md-11 col-11'>
                                         <p className='m-0 p-0 font_listing_qq text-light'>Accurate Testing Processes</p>
                                         <p className='m-0 p-0 env_text_sub pt-2'>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            All filters an parts are tested to meet or exceed industry standards, ensuring maximum efficiency and reliability.
                                         </p>
                                     </div>
                                 </div>
@@ -1051,7 +1055,7 @@ function Home() {
 
 
             {/* Section 11 --------------------------------------- */}
-            {/* <div className='col-md-12 '>
+            <div className='col-md-12 '>
                 <div className='row'>
                     <div className='col-md-8 background_lg'>
                         <div className='row'>
@@ -1074,7 +1078,7 @@ function Home() {
                     </div>
                     <div className='col-md-4 background_g display_pc'></div>
                 </div>
-            </div> */}
+            </div>
 
             {/* Section 12 --------------------------------------- */}
             <div className='col-md-12 padding_top_bottom_left_right_only background_s3 pb-5 pt-4'>
