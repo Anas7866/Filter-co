@@ -498,10 +498,35 @@
     transform: scale(1.1);
 }
 
+.border_right_11 {
+    /* border-right: 2px solid #EBEBEB; */
+    transition: 0.5s ease-in-out;
+}
+
+.border_right_11:hover {
+    /* border-right: 0px solid #EBEBEB; */
+    background-color: #EC1A24;
+    color: white !important;
+    transition: 0.5s ease-in-out;
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
 .border_right_12:hover .env_text,
 .border_right_12:hover .env_text_sub,
 .border_right_12:hover .arroe_colorcc,
 .border_right_12:hover .font_s3_pp {
+    color: white;
+    /* Change the color of .env_text and .env_sub_text to red */
+}
+
+.border_right_11:hover .env_text,
+.border_right_11:hover .env_text_sub,
+.border_right_11:hover .arroe_colorcc,
+.border_right_11:hover .font_s3_pp {
     color: white;
     /* Change the color of .env_text and .env_sub_text to red */
 }
@@ -609,6 +634,15 @@
 
 .background_s3 {
     background-color: #F9F9F9;
+}
+
+.background_s5555 {
+    background-image: url(/public/images/imgnew/filterbackground.jpeg);
+    height: 100vh;
+    padding-top: 10% !important;
+    background-position: 100% 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .background_s3_orange {
@@ -798,7 +832,7 @@
 
 .image_hei_ww_adj {
     height: 250px;
-    width: 300px !important;
+    width: 100% !important;
     object-fit: cover;
     border: 1px solid #EC1A24;
     border-radius: 10px;

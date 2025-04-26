@@ -335,7 +335,7 @@ function Home() {
                     <div className='row'>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='col-md-12 ps-3 py-2'>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/1.jpg' />
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgnew/Air1.png' />
                                 <p className='m-0 p-0 env_text mt-3'>Air Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3' onClick={() => setOpen1(!open1)}>
                                     Our air filters are designed to maximize airflow while effectively trapping dust, dirt, and other .
@@ -349,7 +349,7 @@ function Home() {
                             </div>
                         </div>
                         <div className='col-md border_right_11 py-4 '>
-                            <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/4.jpg' />
+                            <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgnew/OilF1.png' />
                             <div className='col-md-12 ps-3 py-2'>
                                 <p className='m-0 p-0 env_text mt-3'>Oil Filters</p>
                                 <p className='m-0 p-0 env_text_sub pt-3' onClick={() => setOpen2(!open2)}>
@@ -365,7 +365,7 @@ function Home() {
                         </div>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2'>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/2.jpg' />
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgnew/Fuel1.png' />
                             </div>
                             <div className='col-md-12 ps-3 py-2 '>
                                 <p className='m-0 p-0 env_text mt-3'>Fuel Filters</p>
@@ -396,7 +396,7 @@ function Home() {
                     <div className='row'>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2 ps-3'>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/6.jpg' />
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgnew/Hyd1.png' />
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
                                 <p className='m-0 p-0 env_text'>Hydraulic Filters</p>
@@ -413,7 +413,7 @@ function Home() {
                         </div>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2 ps-3 '>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/5.jpg' />
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgnew/Sap1.png' />
                                 {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/5.jpg' /> */}
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
@@ -659,7 +659,7 @@ function Home() {
                                     <p className='m-0 pt-4 arroe_colorcc'><span className='readmore_text'>Read More</span> <FaArrowRight /></p>
                                 </div>
                             </div>
-                            <div className='col-md-4 pe-4 py-4 '>
+                            <div className='col-md-4 border_right_11 pe-4 py-4 '>
                                 <div className='col-md-12 ps-4 py-2'>
                                     <img className='img-fluid' src='/images/kub.png' />
                                     {/* <PiFactoryLight className='font_s3_pp' /> */}
@@ -745,7 +745,7 @@ function Home() {
 
 
             {/* Section 7 --------------------------------------- */}
-            <div className='col-md-12 padding_top_bottom_left_right_only background_s3 py-3'>
+            <div className='col-md-12  padding_top_bottom_left_right_only background_s5555 py-3'>
                 <div className='py-5'>
                     {/* <div className='col-md-12 text-center'>
                         <p className='m-0 p-0 little_orange_text'>Recent Works</p>
@@ -1056,7 +1056,7 @@ function Home() {
 
             {/* Section 11 --------------------------------------- */}
             <div className='col-md-12 '>
-                <div className='row'>
+                {/* <div className='row'>
                     <div className='col-md-8 background_lg'>
                         <div className='row'>
                             <div className='col-md-6'></div>
@@ -1064,7 +1064,7 @@ function Home() {
                                 <div className='col-md-12 margin_right_neggg background_orange_11 px-4 py-5'>
                                     <p className='m-0 p-0 little_orange_text  text-light'>Manufacture A Varuety Of Hight Quality Products</p>
                                     <p className='m-0 p-0 font_big_heading_sub_light text-light'>
-                                        A Leading Industrial & Manufacturing Company, Serving Since 1997.
+                                        A Leading Industrial & Manufacturing Company, Serving Since 1997.1
                                     </p>
                                     <p className='m-0 p-0 env_text_sub_small text-light mt-2'>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -1077,6 +1077,9 @@ function Home() {
                         </div>
                     </div>
                     <div className='col-md-4 background_g display_pc'></div>
+                </div> */}
+                <div className='col-md-12'>
+                    <img className='img-fluid w-100'  src='/images/banner9.jpeg' />
                 </div>
             </div>
 
