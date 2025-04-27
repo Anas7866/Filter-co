@@ -812,10 +812,10 @@
 }
 
 .background_gray_22 {
-    background-color: #B8B8B8;
-    background-image: url(/public/images/imgnew/fv.jpeg);
+    background-color: white;
+    /* background-image: url(/public/images/imgnew/square.jpeg); */
     background-size: cover;
-    background-position: 100% 4%;
+    background-position: 50% 100%;
     background-repeat: no-repeat;
 }
 
@@ -831,7 +831,7 @@
 }
 
 .image_hei_ww_adj {
-    height: 250px;
+    /* height: 250px; */
     width: 100% !important;
     object-fit: cover;
     border: 1px solid #EC1A24;

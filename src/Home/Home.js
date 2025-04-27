@@ -739,7 +739,9 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-6 background_gray_22 padding_top_bottom_right_1 py-5'></div>
+                    <div className='col-md-6 background_gray_22  py-5'>
+                        <img className='img-fluid' src='/images/imgnew/square.jpeg'/>
+                    </div>
                 </div>
             </div>
 
