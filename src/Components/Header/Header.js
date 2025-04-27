@@ -86,12 +86,12 @@ const Header = ({ onNavigate, TogglerNew, toggler }) => {
                                     <span className='ps-5 pt-1' onClick={() => { onNavigate('products') }} ><Link className='text_dec_stop_Text ' >Products</Link></span>
                                     <span className='ps-5 pt-1' onClick={() => onNavigate('aboutus')}><Link className='text_dec_stop_Text ' >About Us</Link></span>
 
-                                    <span className='ps-5 pt-1' ><Link className='text_dec_stop_Text' >Resources</Link></span>
+                                    {/* <span className='ps-5 pt-1' ><Link className='text_dec_stop_Text' >Resources</Link></span> */}
 
 
                                     {/* <span className='ps-5' onClick={() => onNavigate('portfolio')}>Portofolio</span> */}
-                                    <span className='ps-5 pt-1' onClick={() => onNavigate('contactus')}><Link className='text_dec_stop_Text' to="/">Contact US</Link></span>
-                                    <span className='ps-5'><button className='btn btn-warning orange_button_color'>Request A Quote</button></span>
+                                    <span className='ps-5 pt-1' onClick={() => onNavigate('contactusLast')}><Link className='text_dec_stop_Text' to="/">Contact US</Link></span>
+                                    <span className='ps-5'><button onClick={() => onNavigate('contactus')} className='btn btn-warning orange_button_color'>Request A Quote</button></span>
                                 </div>
                             </div>
                         </div>
@@ -123,9 +123,9 @@ const Header = ({ onNavigate, TogglerNew, toggler }) => {
                             <h5 className='py-3' onClick={TogglerNew}><Link className='text_dec_stop' to="/">Home</Link></h5>
                             <h5 className='py-3' onClick={() => onNavigate('aboutus')}><Link className='text_dec_stop' to="/">About Us</Link></h5>
                             <h5 className='py-3' onClick={() => { TogglerNew(); onNavigate('products') }}><Link className='text_dec_stop' to="/">Products</Link></h5>
-                            <h5 className='py-3' onClick={TogglerNew}><Link className='text_dec_stop' to="/">Resources</Link></h5>
+                            {/* <h5 className='py-3' onClick={TogglerNew}><Link className='text_dec_stop' to="/">Resources</Link></h5> */}
                             <h5 className='py-3' ><Link className='text_dec_stop' to="/">Services</Link></h5>
-                            <h5 className='py-3' onClick={() => onNavigate('contactus')} ><Link className='text_dec_stop' to="/">Contact Us</Link></h5>
+                            <h5 className='py-3' onClick={() => onNavigate('contactusLast')} ><Link className='text_dec_stop' to="/">Contact Us</Link></h5>
                         </div>
                     </div>
                     : null}

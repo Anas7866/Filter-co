@@ -139,6 +139,7 @@ function Home() {
     const aboutuss = useRef(null);
     const contactusss = useRef(null);
     const productsref = useRef(null);
+    const productsrefLast = useRef(null);
 
     const handleScrollToSection = (section) => {
         if (section === 'aboutus') {
@@ -150,7 +151,12 @@ function Home() {
         } else if (section === 'products') {
             productsref.current?.scrollIntoView({ behavior: 'smooth' });
             TogglerNew();
+        } else if (section === 'contactusLast') {
+            productsrefLast.current?.scrollIntoView({ behavior: 'smooth' });
+            TogglerNew();
         }
+
+
     };
 
     const Readmorebutton = () => {
@@ -740,7 +746,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='col-md-6 background_gray_22  py-5'>
-                        <img className='img-fluid' src='/images/imgnew/square.jpeg'/>
+                        <img className='img-fluid' src='/images/imgnew/square.jpeg' />
                     </div>
                 </div>
             </div>
@@ -1081,7 +1087,7 @@ function Home() {
                     <div className='col-md-4 background_g display_pc'></div>
                 </div> */}
                 <div className='col-md-12'>
-                    <img className='img-fluid w-100'  src='/images/banner9.jpeg' />
+                    <img className='img-fluid w-100' src='/images/banner9.jpeg' />
                 </div>
             </div>
 
@@ -1147,7 +1153,9 @@ function Home() {
 
 
             {/* Footer  */}
-            <Footer />
+            <div ref={productsrefLast}>
+                <Footer  />
+            </div>
         </div>
     )
 }
