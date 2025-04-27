@@ -431,7 +431,7 @@ function Home() {
                         </div>
                         <div className='col-md border_right_11 py-4 '>
                             <div className='pe-2 ps-3 '>
-                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgg/3.jpg' />
+                                <img className='img-fluid w-100 image_hei_ww_adj' src='/images/imgnew/OilB1.png' />
                                 {/* <img className='img-fluid w-100 image_hei_ww_adj' src='/imagess/5.jpg' /> */}
                             </div>
                             <div className='col-md-12 ps-4 py-2'>
