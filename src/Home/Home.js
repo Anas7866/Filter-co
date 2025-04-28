@@ -265,7 +265,7 @@ function Home() {
                                 <div className='col-md-6 '>
                                     <div className='col-md-12 text_for_head1' >
                                         <p className='m-0 p-0 industry_text_pp'>Filter City </p>
-                                        <p className='m-0 p-0 industry_text_pp1'>City Of Filteration </p>
+                                        <p className='m-0 p-0 industry_text_pp1'>City Of Filtration </p>
                                         <p className='m-0 p-0 industry_text_pp2'>Where Power Meets Purity </p>
                                         <p className='m-0 p-0 color_of_text_sub1 pt-3'>Filter City is a leading supplier specializing in all types of heavy machinery filters, providing high-quality solutions for industries such as construction, mining, agriculture, and transportation. With an extensive range of filters for machinery including excavators, bulldozers, cranes, and more, we ensure optimal performance and durability for your equipment.</p>
                                     </div>
@@ -461,9 +461,9 @@ function Home() {
 
             {/* Section 3 --------------------------------------- */}
             <div className='col-md-12 padding_top_bottom_left_right_only padding_start_for_special_heading' ref={productsref}>
-                <p className='m-0 p-0 little_orange_text'>Manufacture A Varuety Of Hight Quality Products</p>
+                <p className='m-0 p-0 little_orange_text'>Manufacture A Variety Of High Quality Products</p>
                 <p className='m-0 p-0 font_big_heading'>
-                    Providing A Variety of Hight <br />Quality Filters
+                    Providing A Variety of High <br />Quality Filters
                 </p>
             </div>
             <div className='col-md-12 padding_top_bottom_left_right_only pt-md-5 mt-md-4 pb-5'>
@@ -622,7 +622,7 @@ function Home() {
                 <div className='col-md-12 mt-5'>
                     <div className='row'>
                         <div className='col-md-6'>
-                            {/* <p className='m-0 p-0 little_orange_text'>Manufacture A Varuety Of Hight Quality Products</p> */}
+                            {/* <p className='m-0 p-0 little_orange_text'>Manufacture A Variety Of High Quality Products</p> */}
                             <p className='m-0 p-0 font_big_heading_sub'>
                                 Precision Crafted Excellence: Manufacturing a Diverse Range of High-Quality Spare Parts
                             </p>
@@ -804,7 +804,7 @@ function Home() {
                 <div className='col-md-12 mt-5'>
                     <div className='row'>
                         <div className='col-md-6'>
-                            <p className='m-0 p-0 little_orange_text '>Manufacture supplying a wide range of hight-quality filters and spare parts. </p>
+                            <p className='m-0 p-0 little_orange_text '>Manufacture supplying a wide range of High-quality filters and spare parts. </p>
                             <p className='m-0 p-0 font_big_heading_sub text-light'>
                                 Filter City Trading Company - A Trusted Name in Heavy Machinery Parts Since 1992.
                             </p>
@@ -812,7 +812,7 @@ function Home() {
                         </div>
                         <div className='col-md-6'>
                             <p className='m-0 p-0 env_text_sub text-light pt-4 mt-2'>
-                                At Filter City Trading Company. we specialize in providing top-grade filters and spare parts for heavy machinery accross varios industries. With decades of experience, we've build a reputation for reliability, quality and expert service.
+                                At Filter City Trading Company. we specialize in providing top-grade filters and spare parts for heavy machinery accross various industries. With decades of experience, we've build a reputation for reliability, quality and expert service.
                             </p>
                         </div>
                     </div>
@@ -894,7 +894,7 @@ function Home() {
                                     A Leading Industrial & Manufacturing Company, Since 1992.
                                 </p>
                                 <p className='m-0 p-0 env_text_sub text-light pt-2 mt-2'>
-                                    FilterCity Trading company specializes in supplying high-quality heavy machinery filters and spare parts. With over two decades of experience, we've become a trusted name in the filtertion industrial sector. Our commitment to quality, reliability and customer satisfaction has helped us servce a diverse range of industries efficiently.
+                                    FilterCity Trading company specializes in supplying high-quality heavy machinery filters and spare parts. With over two decades of experience, we've become a trusted name in the filtertion industrial sector. Our commitment to quality, reliability and customer satisfaction has helped us service a diverse range of industries efficiently.
                                 </p>
                                 {/* <div className='col-md-12 position_bottom_1 '>
                                     <span className='btn btn-light btn-lg  button_cutome_black px-md-5 mt-3 w-100'>
@@ -909,7 +909,7 @@ function Home() {
                                     Contact Us
                                 </p>
                                 <p className='m-0 p-0 env_text_sub pt-1 mt-2'>
-                                    Looking for durable filters or reliable spare parts for your machinery? Get in touchh with us today.
+                                    Looking for durable filters or reliable spare parts for your machinery? Get in touch with us today.
                                 </p>
                                 <div className='col-md-12 mt-md-4 mt-4 pt-md-3 pt-0'>
                                     <div className='row'>
@@ -1076,7 +1076,7 @@ function Home() {
                             <div className='col-md-6'></div>
                             <div className='col-md-6'>
                                 <div className='col-md-12 margin_right_neggg background_orange_11 px-4 py-5'>
-                                    <p className='m-0 p-0 little_orange_text  text-light'>Manufacture A Varuety Of Hight Quality Products</p>
+                                    <p className='m-0 p-0 little_orange_text  text-light'>Manufacture A Variety Of High Quality Products</p>
                                     <p className='m-0 p-0 font_big_heading_sub_light text-light'>
                                         A Leading Industrial & Manufacturing Company, Serving Since 1997.1
                                     </p>
