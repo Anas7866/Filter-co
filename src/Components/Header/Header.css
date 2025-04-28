@@ -162,8 +162,15 @@
     bottom: 135px;
     z-index: 11111;
     width: 100%;
+    
 }
 
+
+.section_above
+{
+    position: relative;
+    z-index: 11122;
+}
 
 .button_cutome {
     background-color: white !important;
@@ -638,11 +645,13 @@
 
 .background_s5555 {
     background-image: url(/public/images/imgnew/filterbackground.jpeg);
-    height: 100vh;
-    padding-top: 10% !important;
+    /* height: 100vh; */
+    padding-top: 5% !important;
     background-position: 100% 40%;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 5% !important;
 }
 
 .background_s3_orange {

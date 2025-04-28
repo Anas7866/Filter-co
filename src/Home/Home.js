@@ -765,28 +765,34 @@ function Home() {
                 </div>
                 <div className='col-md-12 mb-5 pb-4'>
                     <div className='row'>
-                        <div className='col-md-3 p-4'>
+                        <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
                                 <img className='img-fluid' src='/images/w1.jpg' />
                             </div>
                         </div>
-                        <div className='col-md-3 p-4'>
+                        <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
                                 <img className='img-fluid' src='/images/w2.jpg' />
 
                             </div>
                         </div>
-                        <div className='col-md-3 p-4'>
+                        <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
                                 <img className='img-fluid' src='/images/w3.jpg' />
 
                             </div>
                         </div>
-                        <div className='col-md-3 p-4'>
+                        <div className='col-md-4 p-4'>
+                            
+                        </div>
+                        <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
                                 <img className='img-fluid' src='/images/w4.jpg' />
 
                             </div>
+                        </div>
+                        <div className='col-md-4 p-4'>
+                           
                         </div>
                     </div>
                 </div>
@@ -1107,7 +1113,7 @@ function Home() {
                         <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
                                 {/* <div className='col-md-12 img_gray'></div> */}
-                                <img className='img-fluid border_for_img' src='/images/b1.png' />
+                                <img className='img-fluid border_for_img' src='/images/1.png' />
                                 {/* <div className='px-3 py-3'>
                                     <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
                                     <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
@@ -1121,7 +1127,7 @@ function Home() {
                         <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
                                 {/* <div className='col-md-12 img_gray1'></div> */}
-                                <img className='img-fluid border_for_img' src='/images/b2.png' />
+                                <img className='img-fluid border_for_img' src='/images/2.png' />
                                 {/* <div className='px-3 py-3'>
                                     <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
                                     <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
@@ -1135,7 +1141,7 @@ function Home() {
                         <div className='col-md-4 p-4'>
                             <div className='col-md-12 bg-white'>
                                 {/* <div className='col-md-12 img_gray2'></div> */}
-                                <img className='img-fluid border_for_img' src='/images/b3.png' />
+                                <img className='img-fluid border_for_img' src='/images/3.png' />
                                 {/* <div className='px-3 py-3'>
                                     <p className='m-0 p-0 font_floride'>Florid Chemical Factory</p>
                                     <p className='m-0 p-0 mt-1 little_orange_text'>Chemicals, Oil and gas</p>
@@ -1154,7 +1160,7 @@ function Home() {
 
             {/* Footer  */}
             <div ref={productsrefLast}>
-                <Footer  />
+                <Footer />
             </div>
         </div>
     )

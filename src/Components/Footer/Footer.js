@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaLinkedin, FaLinkedinIn, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa'
 import { FaLocationDot, FaXTwitter } from 'react-icons/fa6'
-import { IoMail } from 'react-icons/io5'
+import { IoLogoTiktok, IoMail } from 'react-icons/io5'
 
 function Footer() {
     return (
@@ -94,7 +94,7 @@ function Footer() {
                     <div className='col-md-6 col-8 text-start'>
                         <p className='m-0 p-0 py-1'>&copy;2025 FILTER CITY TRADING</p>
                     </div>
-                    <div className='col-md-6 col-4 text-end m-auto'>
+                    <div className='col-md-6 col-4 text-end m-auto section_above'>
                         <span>
                             <a style={{ textDecoration: "none", color: "white" }} href="https://www.facebook.com/FILTERCITY.TRADING/" target="_blank" rel="noopener noreferrer">
                                 <FaFacebookF />
@@ -108,8 +108,14 @@ function Footer() {
                         </span>
 
                         <span className='ps-3'>
-                            <a style={{ textDecoration: "none", color: "white" }} href="https://www.instagram.com/filter_city_fc/?igsh=bmt0emgwMzZ5NmJ1#" target="_blank" rel="noopener noreferrer">
+                            <a style={{ textDecoration: "none", color: "white" }} href="https://sa.linkedin.com/in/filter-city-a2537125a/ar" target="_blank" rel="noopener noreferrer">
                                 <FaLinkedinIn />
+                            </a>
+                        </span>
+
+                        <span className='ps-3 '>
+                            <a style={{ textDecoration: "none", color: "white" }} href="https://www.tiktok.com/@filter.city?_t=ZS-8vu20nQ1Mwh&_r=1" target="_blank" rel="noopener noreferrer">
+                                <IoLogoTiktok />
                             </a>
                         </span>
                         {/* <span className='ps-3'><FaXTwitter /></span> */}
